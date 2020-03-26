@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterexample/Untils/cache.dart';
 import 'package:flutterexample/route/hardware_page.dart';
 import 'package:flutterexample/route/untils_page.dart';
 import 'package:flutterexample/route/widgets_page.dart';
@@ -49,6 +50,7 @@ class _MyAppState extends State<MyApp> {
           })),
       routes: <String, WidgetBuilder>{
         // 路由表注册
+        'cache': (context) => CachePage(),
       },
     );
   }

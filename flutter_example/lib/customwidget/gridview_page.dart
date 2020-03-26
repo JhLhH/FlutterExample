@@ -45,7 +45,7 @@ class _GridViewPageState extends State<GridViewPage> {
   }
 
   Widget _getItemContainer(BuildContext context, String title, IconData icon, String routeName) {
-    return GestureDetector(
+    return InkWell(
       onTap: (){
         print('当前点击$title Item');
         if(routeName != null){
