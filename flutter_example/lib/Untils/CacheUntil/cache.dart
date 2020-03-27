@@ -8,24 +8,29 @@ class CachePage extends StatefulWidget {
 
 class _CachePageState extends State<CachePage> {
   String allSpace;
+  String remainingSpace;
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-//    getAllSpace();
+    getAllSpace();
   }
 
   @override
   void reassemble() {
     // TODO: implement reassemble
     super.reassemble();
-    print('sss');
+    getAllSpace();
+
   }
 
   void getAllSpace() async {
     String aa = await Cache.deviceCacheSpace;
+    String bb = await Cache.availableSpace;
+    print(bb);
     setState(() {
       allSpace = aa;
+      remainingSpace = bb;
     });
   }
 
@@ -38,9 +43,9 @@ class _CachePageState extends State<CachePage> {
           PopupMenuButton<String>(
             onSelected: (String text){
               if(text == '1'){
-                print('a');
+                Navigator.of(context).pushNamed('doc', arguments: 'https://github.com/wya-team/flutter_wya/blob/master/flutter_untils/cache/lib/cache_until.dart');
               } else if (text == '2'){
-                print('b');
+                Navigator.of(context).pushNamed('doc', arguments: 'https://www.baidu.com');
               }
             },
               itemBuilder: (BuildContext context) {
@@ -64,9 +69,10 @@ class _CachePageState extends State<CachePage> {
                 ),
               ),
               Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text('总空间:$allSpace'),
-                  Text('可用空间:'),
+                  Text('可用空间:$remainingSpace'),
                 ],
               ),
             ],
