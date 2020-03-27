@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class GridViewPage extends StatefulWidget {
-
   /// 标题名字
   List<String> titles = [];
 
@@ -10,9 +9,13 @@ class GridViewPage extends StatefulWidget {
   List<IconData> iconDatas = [];
 
   /// 路由名字每一个Item对应跳转的界面路由
-  List<String> routeNames = [];
+  /// key值为titles中的元素，value为路由名字
+  Map<String, String> routeNames;
 
-  GridViewPage({@required this.titles, @required this.iconDatas, @required this.routeNames});
+  GridViewPage(
+      {@required this.titles,
+      @required this.iconDatas,
+      @required this.routeNames});
 
   @override
   _GridViewPageState createState() => _GridViewPageState();
@@ -32,25 +35,19 @@ class _GridViewPageState extends State<GridViewPage> {
   List<Widget> _getWidgetList(BuildContext context) {
     List<Widget> items = [];
     for (int i = 0; i < widget.titles.length; i++) {
-      items.add(_getItemContainer(context, widget.titles[i], widget.iconDatas[i], _getRouteName(i)));
+      items.add(
+          _getItemContainer(context, widget.titles[i], widget.iconDatas[i]));
     }
     return items;
   }
 
-  String _getRouteName(int index){
-    if (widget.routeNames != null && widget.routeNames.length == widget.titles.length){
-      return widget.routeNames[index];
-    }
-    return null;
-  }
-
-  Widget _getItemContainer(BuildContext context, String title, IconData icon, String routeName) {
-    return InkWell(
-      onTap: (){
+  Widget _getItemContainer(BuildContext context, String title, IconData icon) {
+    return GestureDetector(
+      onTap: () {
         print('当前点击$title Item');
-        if(routeName != null){
-          Navigator.pushNamed(context, routeName);
-        }else{
+        if (widget.routeNames[title] != null) {
+          Navigator.pushNamed(context, widget.routeNames[title]);
+        } else {
           print('未查找到该路由');
         }
       },
@@ -75,5 +72,3 @@ class _GridViewPageState extends State<GridViewPage> {
     );
   }
 }
-
-

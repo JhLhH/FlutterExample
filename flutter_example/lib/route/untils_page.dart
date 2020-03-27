@@ -11,7 +11,9 @@ class _UntilsPageState extends State<UntilsPage> {
 
   List<IconData> iconDatas = [Icons.memory, Icons.extension, Icons.alarm];
 
-  List<String> routeNames = ['cache'];
+  Map<String, String> routeNames = {
+    'Cache':'cache',
+  };
 
   @override
   Widget build(BuildContext context) {
