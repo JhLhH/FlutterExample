@@ -12,13 +12,13 @@ class _CachePageState extends State<CachePage> {
   String allSpace;
   String remainingSpace;
   String _systemCache;
-  bool _isClean;
 
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
     getAllSpace();
+    getSystemCache();
   }
 
   @override
