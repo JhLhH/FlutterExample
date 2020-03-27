@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:cache/cache_until.dart';
 import 'package:flutter/material.dart';
+import 'package:path_provider/path_provider.dart';
 
 class CachePage extends StatefulWidget {
   @override
@@ -9,8 +10,8 @@ class CachePage extends StatefulWidget {
 }
 
 class _CachePageState extends State<CachePage> {
-  String allSpace;
-  String remainingSpace;
+  String _allSpace;
+  String _remainingSpace;
   String _systemCache;
 
   @override
@@ -34,15 +35,16 @@ class _CachePageState extends State<CachePage> {
     String bb = await Cache.availableSpace;
     print(bb);
     setState(() {
-      allSpace = aa;
-      remainingSpace = bb;
+      _allSpace = aa;
+      _remainingSpace = bb;
     });
   }
 
   void getSystemCache() async {
     String cc;
     if (Platform.isIOS) {
-//      cc = await Cache.systemCache("");
+      Directory directory = await getTemporaryDirectory();
+      cc = await Cache.systemCache(path: directory.path);
     } else if (Platform.isAndroid) {
       cc = await Cache.systemCache();
     }
@@ -95,15 +97,16 @@ class _CachePageState extends State<CachePage> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Text('总空间:$allSpace'),
-                  Text('可用空间:$remainingSpace'),
+                  Text('总空间:$_allSpace'),
+                  Text('可用空间:$_remainingSpace'),
                   Text('缓存大小:$_systemCache'),
                   RaisedButton(
                     child: Text("清理缓存"),
                     onPressed: () async {
                       bool isClean;
                       if (Platform.isIOS) {
-//                        isClean = await Cache.clearCache("");
+                        Directory directory = await getTemporaryDirectory();
+                        isClean = await Cache.clearCache(path: directory.path);
                       } else if (Platform.isAndroid) {
                         isClean = await Cache.clearCache();
                       }
