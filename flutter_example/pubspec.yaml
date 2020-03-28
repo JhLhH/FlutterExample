@@ -27,8 +27,17 @@ dependencies:
   flutter_webview_plugin: ^0.3.10+1
   path_provider: ^1.6.5
 
+#  cache:
+#    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_untils/cache
+
   cache:
-    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_untils/cache
+    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/cache
+
+  extension_data:
+    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/extension_data
+
+  segmentcontrol:
+    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/segmentcontrol
 
 dev_dependencies:
   flutter_test:
