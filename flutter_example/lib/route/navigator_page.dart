@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterexample/Untils/CacheUntil/cache.dart';
-import 'package:flutterexample/Doc/doc.dart';
+import 'package:flutterexample/untils/cache.dart';
+import 'package:flutterexample/docs/doc.dart';
+import 'package:flutterexample/widgets/tableview.dart';
 import 'package:flutterexample/route/hardware_page.dart';
 import 'package:flutterexample/route/untils_page.dart';
 import 'package:flutterexample/route/widgets_page.dart';
@@ -51,8 +52,9 @@ class _MyAppState extends State<MyApp> {
           })),
       routes: <String, WidgetBuilder>{
         // 路由表注册
-        'cache': (context) => CachePage(),
         'doc': (context) => Doc(ModalRoute.of(context).settings.arguments),
+        'cache': (context) => CachePage(),
+        'tableview': (context) => TableViewDemo(),
       },
     );
   }

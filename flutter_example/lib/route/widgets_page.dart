@@ -33,14 +33,16 @@ class _WidgetsPageState extends State<WidgetsPage> {
     Icons.list
   ];
 
-  List<String> routeName = [];
+  Map<String, String> routeName = {
+    'tableView' : 'tableview',
+  };
 
   @override
   Widget build(BuildContext context) {
     return GridViewPage(
       titles:titles,
       iconDatas:iconDatas,
-//      routeNames: [],
+      routeNames: routeName,
     );
   }
 }
