@@ -27,11 +27,10 @@ dependencies:
   flutter_webview_plugin: ^0.3.10+1
   path_provider: ^1.6.5
 # flutter_untils
-#  cache:
-#    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_untils/cache
-
   cache:
+#    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_untils/cache
     path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/cache
+
 
   extension_data:
     path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/extension_data
@@ -42,8 +41,8 @@ dependencies:
     path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/segmentcontrol
 
   tableview:
-    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/tableview
-
+#    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/tableview
+    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/tableview
 
 dev_dependencies:
   flutter_test:

@@ -248,7 +248,7 @@ packages:
   tableview:
     dependency: "direct main"
     description:
-      path: "/Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/tableview"
+      path: "/Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/tableview"
       relative: false
     source: path
     version: "0.0.1"
