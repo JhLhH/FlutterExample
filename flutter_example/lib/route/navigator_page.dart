@@ -3,6 +3,7 @@ import 'package:flutterexample/untils/cache.dart';
 import 'package:flutterexample/docs/doc.dart';
 import 'package:flutterexample/untils/date.dart';
 import 'package:flutterexample/untils/extensiondata.dart';
+import 'package:flutterexample/widgets/segmentedcontrol.dart';
 import 'package:flutterexample/widgets/tableview.dart';
 import 'package:flutterexample/route/hardware_page.dart';
 import 'package:flutterexample/route/untils_page.dart';
@@ -59,6 +60,7 @@ class _MyAppState extends State<MyApp> {
         'tableview': (context) => TableViewDemo(),
         'date': (context) => DatePage(),
         'ExtensionData': (context) => ExtensionDataPage(),
+        'SegmentedControl':(context) => CustomSegmentedControl(),
       },
     );
   }

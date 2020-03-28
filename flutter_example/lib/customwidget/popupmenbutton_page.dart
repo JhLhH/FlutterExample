@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class PopupmenButtonPage extends StatefulWidget {
-  List<String> titles = ['查看文档','查看Demo'];
+  List<String> titles ;
   List<IconData> icons;
   List<Image> images;
   List<String> urls;
 
 
 
-  PopupmenButtonPage({this.icons, this.images, this.urls});
+  PopupmenButtonPage({this.titles, this.icons, this.images, this.urls});
 
   @override
   _PopupmenButtonPageState createState() => _PopupmenButtonPageState();

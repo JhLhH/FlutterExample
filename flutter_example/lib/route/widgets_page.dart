@@ -17,7 +17,8 @@ class _WidgetsPageState extends State<WidgetsPage> {
     'Slider',
     'LoginTextField',
     'step',
-    'tableView'
+    'tableView',
+    'SegmentedControl'
   ];
 
   List<IconData> iconDatas = [
@@ -30,11 +31,13 @@ class _WidgetsPageState extends State<WidgetsPage> {
     Icons.slideshow,
     Icons.exit_to_app,
     Icons.format_list_numbered,
-    Icons.list
+    Icons.list,
+    Icons.work
   ];
 
   Map<String, String> routeName = {
     'tableView' : 'tableview',
+    'SegmentedControl':'SegmentedControl'
   };
 
   @override

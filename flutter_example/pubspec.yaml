@@ -30,27 +30,28 @@ dependencies:
     git:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_untils/extension_data
+  flutter_html: ^0.11.1
 
 # flutter_untils
   cache:
 #    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_untils/cache
-#    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/cache
-    path: D:\wya\work\flutter_wya\flutter_untils\cache
+    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/cache
+#    path: D:\wya\work\flutter_wya\flutter_untils\cache
 
   date:
-    path: D:\wya\work\flutter_wya\flutter_untils\date
-
+#    path: D:\wya\work\flutter_wya\flutter_untils\date
+    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/date
 
 # flutter_widgets
 
   segmentcontrol:
-#    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/segmentcontrol
-    path:  D:\wya\work\flutter_wya\flutter_widgets\segmentcontrol
+    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/segmentcontrol
+#    path:  D:\wya\work\flutter_wya\flutter_widgets\segmentcontrol
 
   tableview:
 #    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/tableview
-#    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/tableview
-    path:  D:\wya\work\flutter_wya\flutter_widgets\tableview
+    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/tableview
+#    path:  D:\wya\work\flutter_wya\flutter_widgets\tableview
 
 dev_dependencies:
   flutter_test:
