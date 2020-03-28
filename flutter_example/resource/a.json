@@ -1,0 +1,1420 @@
+{
+    "list": [
+        {
+            "name": "班德尔城",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"英勇投弹手",
+                    "nickName": "飞机",
+                    "name":"",
+                    "url":"",
+                    "saying":"大部分人都会打飞机，这对飞机很不公平",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"仙灵女巫",
+                    "nickName": "露露",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"机械公敌",
+                    "nickName": "兰博",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"迅捷斥候",
+                    "nickName": "提莫",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"麦林炮手",
+                    "nickName": "小炮",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"邪恶小法师",
+                    "nickName": "小法",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"魔法猫咪",
+                    "nickName": "猫咪",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "比尔吉沃特",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"海洋之灾",
+                    "nickName": "船长",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"法外狂徒",
+                    "nickName": "男枪",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"海兽祭祀",
+                    "nickName": "触手怪",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"赏金猎人",
+                    "nickName": "女枪",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"深海泰坦",
+                    "nickName": "泰坦",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"血港鬼影",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"卡牌大师",
+                    "nickName": "卡牌",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "德玛西亚",
+            "campWord":"传统、尚武、正义",
+            "persons": [
+                {
+                    "officialName":"无双剑姬",
+                    "nickName": "",
+                    "name":"菲奥娜",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"正义巨像",
+                    "nickName": "",
+                    "name":"加里奥",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"德玛西亚之力",
+                    "nickName": "",
+                    "name":"盖伦",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"德玛西亚皇子",
+                    "nickName": "",
+                    "name":"嘉文四世",
+                    "url":"",
+                    "saying":"犯我德邦者，虽远必诛",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"正义天使",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"光辉女郎",
+                    "nickName": "",
+                    "name":"拉克丝",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"堕落天使",
+                    "nickName": "",
+                    "name":"莫甘娜",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"圣锤之毅",
+                    "nickName": "",
+                    "name":"波比",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"德玛西亚之翼",
+                    "nickName": "鸟人",
+                    "name":"奎因",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"龙血武姬",
+                    "nickName": "",
+                    "name":"希瓦娜",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"琴瑟仙女",
+                    "nickName": "",
+                    "name":"娑娜",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"解脱者",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"暗夜猎手",
+                    "nickName": "vn",
+                    "name":"薇恩",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"德邦总管",
+                    "nickName": "菊花信",
+                    "name":"赵信",
+                    "url":"",
+                    "saying":"一点寒芒先到，随后枪出如龙",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                } 
+            ]
+        },
+        {
+            "name": "弗雷尔卓德",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"冰晶凤凰",
+                    "nickName": "冰鸟",
+                    "name":"艾尼维亚",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"寒冰射手",
+                    "nickName": "寒冰",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"费雷尔卓德之心",
+                    "nickName": "布隆",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"迷失之牙",
+                    "nickName": "纳尔",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"酒桶",
+                    "nickName": "酒桶",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"冰霜女巫",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"雪原双子",
+                    "nickName": "雪人",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"狂战士",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"山隐之焰",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"北地之怒",
+                    "nickName": "猪妹",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"巨魔之王",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"蛮族之王",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"兽灵行者",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"雷霆咆哮",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "艾欧尼亚",
+            "campWord":"与世无争",
+            "persons": [
+                {
+                    "officialName":"九尾妖狐",
+                    "nickName": "",
+                    "name":"阿狸",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"离群之刺",
+                    "nickName": "",
+                    "name":"阿卡丽",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"刀锋舞者",
+                    "nickName": "刀妹",
+                    "name":"艾瑞莉娅",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"翠神",
+                    "nickName": "",
+                    "name":"艾翁",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"戏命师",
+                    "nickName": "望远烬",
+                    "name":"烬",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"天启者",
+                    "nickName": "扇子妈",
+                    "name":"卡尔玛",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"影流之镰",
+                    "nickName": "",
+                    "name":"凯影",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"狂暴之心",
+                    "nickName": "电耗子",
+                    "name":"凯南",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"盲僧",
+                    "nickName": "瞎子",
+                    "name":"李青",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"无极剑圣",
+                    "nickName": "剑圣",
+                    "name":"易",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"齐天大圣",
+                    "nickName": "猴子",
+                    "name":"孙悟空",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"幻翎",
+                    "nickName": "",
+                    "name":"洛",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"腕豪",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"暮光之眼",
+                    "nickName": "",
+                    "name":"慎",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"暗黑元首",
+                    "nickName": "",
+                    "name":"辛德拉",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"惩戒之箭",
+                    "nickName": "",
+                    "name":"韦鲁斯",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"逆羽",
+                    "nickName": "",
+                    "name":"霞",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"疾风剑豪",
+                    "nickName": "",
+                    "name":"亚索",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"影流之主",
+                    "nickName": "儿童劫",
+                    "name":"劫",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "巨神峰",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"残月之肃",
+                    "nickName": "无e烦",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"皎月女神",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"曙光女神",
+                    "nickName": "日女",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"不屈之枪",
+                    "nickName": "潘森",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"众星之子",
+                    "nickName": "奶妈",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"瓦罗兰之盾",
+                    "nickName": "基佬",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"暮光星灵",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "诺克萨斯",
+            "campWord":"力量、战争",
+            "persons": [
+                {
+                    "officialName":"魔蛇之拥",
+                    "nickName": "蛇女",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"诺克萨斯之手",
+                    "nickName": "诺克",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"荣耀行刑官",
+                    "nickName": "德莱文",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"不祥之刃",
+                    "nickName": "不详",
+                    "name":"卡特琳娜",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"暴怒骑士",
+                    "nickName": "",
+                    "name":"克烈",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"诡术妖姬",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"铁铠冥魂",
+                    "nickName": "铁男",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"放逐之刃",
+                    "nickName": "瑞雯",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"亡灵战神",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"诺克萨斯统领",
+                    "nickName": "乌鸦",
+                    "name":"斯维因",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"刀锋之影",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"猩红收割者",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "皮尔特沃夫",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"皮城女警",
+                    "nickName": "女警",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"青钢影",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"探险家",
+                    "nickName": "ez",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"大发明家",
+                    "nickName": "大头",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"未来守护者",
+                    "nickName": "杰斯",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"发条魔灵",
+                    "nickName": "发条",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"皮城执法官",
+                    "nickName": "蔚",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "恕瑞玛",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"殇之木乃伊",
+                    "nickName": "木木",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"沙漠皇帝",
+                    "nickName": "沙皇",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"沙漠死神",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"披甲龙龟",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"荒漠屠夫",
+                    "nickName": "鳄鱼",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"战争女神",
+                    "nickName": "轮子妈",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"水晶先锋",
+                    "nickName": "🦂蝎子",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"岩雀",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"远古巫灵",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "暗影岛",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"蜘蛛女皇",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"战争之影",
+                    "nickName": "人马",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"复仇之矛",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"死亡颂唱着",
+                    "nickName": "死歌",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"扭曲树精",
+                    "nickName": "大树",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"魂锁典狱长",
+                    "nickName": "锤石",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"牧魂人",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "符文之地",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"暗影剑裔",
+                    "nickName": "剑魔",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"牛头酋长",
+                    "nickName": "牛头",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"黑暗之女",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"铸星龙王",
+                    "nickName": "龙王",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"星界游神",
+                    "nickName": "巴德",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"复仇焰魂",
+                    "nickName": "火男",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"痛苦之拥",
+                    "nickName": "寡妇",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"费德提克",
+                    "nickName": "稻草人",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"潮汐海灵",
+                    "nickName": "小鱼人",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"武器大师",
+                    "nickName": "武器",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"永恒双子",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"圣枪游侠",
+                    "nickName": "奥巴马",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"唤潮鲛姬",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"永恒梦魇",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"符文法师",
+                    "nickName": "光头",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"涤魂圣枪",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"恶魔小丑",
+                    "nickName": "小丑",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"河流之王",
+                    "nickName": "蛤蟆",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"时光守护者",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "虚空之地",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"虚空恐惧",
+                    "nickName": "大虫子",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"虚空之女",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"虚空行者",
+                    "nickName": "卡萨丁",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"虚空掠夺者",
+                    "nickName": "螳螂",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"深渊巨口",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"虚空先知",
+                    "nickName": "蚂蚱",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"虚空遁地兽",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"虚空之眼",
+                    "nickName": "大眼",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "祖安",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"蒸汽机器人",
+                    "nickName": "机器人",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"祖安狂人",
+                    "nickName": "蒙多",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"时间刺客",
+                    "nickName": "艾克",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"风暴之怒",
+                    "nickName": "风女",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"暴走萝莉",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"炼金术士",
+                    "nickName": "炼金",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"瘟疫之源",
+                    "nickName": "老鼠",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"无畏战车",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"机械先驱",
+                    "nickName": "三只手",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"祖安怒兽",
+                    "nickName": "狼人",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"生化魔人",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"爆破鬼才",
+                    "nickName": "炸弹人",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        },
+        {
+            "name": "暂无阵营",
+            "campWord":"",
+            "persons": [
+                {
+                    "officialName":"熔岩巨兽",
+                    "nickName": "石头人",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"万花通灵",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"狂野女猎手",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"元素女皇",
+                    "nickName": "",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"傲之追猎者",
+                    "nickName": "狮子狗",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                },
+                {
+                    "officialName":"荆棘之兴",
+                    "nickName": "婕拉",
+                    "name":"",
+                    "url":"",
+                    "saying":"",
+                    "powerValue":10000,
+                    "faceValue" : 100
+                }
+            ]
+        }
+    ]
+}
