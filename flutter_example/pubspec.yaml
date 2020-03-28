@@ -52,6 +52,18 @@ dependencies:
 #    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/tableview
     path:  D:\wya\work\flutter_wya\flutter_widgets\tableview
 
+  dialog:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/dialog
+#    path:  D:\wya\work\flutter_wya\flutter_widgets\dialog
+
+  toast:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/toast
+#    path:  D:\wya\work\flutter_wya\flutter_widgets\toast
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

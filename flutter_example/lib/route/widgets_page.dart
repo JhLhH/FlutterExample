@@ -35,6 +35,8 @@ class _WidgetsPageState extends State<WidgetsPage> {
 
   Map<String, String> routeName = {
     'tableView' : 'tableview',
+    'Dialog' : 'dialog',
+    'Toast' : 'toast',
   };
 
   @override
