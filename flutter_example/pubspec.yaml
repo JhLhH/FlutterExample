@@ -29,6 +29,8 @@ dependencies:
 
   cache:
     path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_untils/cache
+  tableview:
+    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/tableview
 
 dev_dependencies:
   flutter_test:
@@ -46,7 +48,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-#  assets:
+  assets:
+    - images/
 #    - Docs/
 
   # An image asset can refer to one or more resolution-specific "variants", see

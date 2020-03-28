@@ -231,6 +231,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.5"
+  tableview:
+    dependency: "direct main"
+    description:
+      path: "/Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/tableview"
+      relative: false
+    source: path
+    version: "0.0.1"
   term_glyph:
     dependency: transitive
     description:
