@@ -13,6 +13,8 @@ class _UntilsPageState extends State<UntilsPage> {
 
   Map<String, String> routeNames = {
     'Cache':'cache',
+    'Date':'date',
+    'ExtensionData': 'ExtensionData'
   };
 
   @override

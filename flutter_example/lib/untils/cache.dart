@@ -1,7 +1,7 @@
 import 'dart:io';
-
 import 'package:cache/cache_until.dart';
 import 'package:flutter/material.dart';
+import 'package:flutterexample/customwidget/popupmenbutton_page.dart';
 import 'package:path_provider/path_provider.dart';
 
 class CachePage extends StatefulWidget {
@@ -13,6 +13,11 @@ class _CachePageState extends State<CachePage> {
   String _allSpace;
   String _remainingSpace;
   String _systemCache;
+
+  List<String> pushUrls = [
+    'https://github.com/wya-team/flutter_wya/blob/master/flutter_untils/cache/README.md',
+    'https://github.com/wya-team/flutter_wya/blob/master/flutter_untils/cache/lib/cache_until.dart',
+  ];
 
   @override
   void initState() {
@@ -59,27 +64,7 @@ class _CachePageState extends State<CachePage> {
       appBar: AppBar(
         title: Text('Cache'),
         actions: <Widget>[
-          PopupMenuButton<String>(onSelected: (String text) {
-            if (text == '1') {
-              Navigator.of(context).pushNamed('doc',
-                  arguments:
-                      'https://github.com/wya-team/flutter_wya/blob/master/flutter_untils/cache/lib/cache_until.dart');
-            } else if (text == '2') {
-              Navigator.of(context)
-                  .pushNamed('doc', arguments: 'https://www.baidu.com');
-            }
-          }, itemBuilder: (BuildContext context) {
-            return [
-              PopupMenuItem(
-                child: Text('查看文档'),
-                value: '1',
-              ),
-              PopupMenuItem(
-                child: Text('查看Demo'),
-                value: '2',
-              ),
-            ];
-          }),
+          PopupmenButtonPage(),
         ],
       ),
       body: Column(
