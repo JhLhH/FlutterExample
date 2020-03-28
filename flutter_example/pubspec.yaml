@@ -29,20 +29,26 @@ dependencies:
 # flutter_untils
   cache:
 #    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_untils/cache
-    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/cache
+#    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/cache
+    path: D:\wya\work\flutter_wya\flutter_untils\cache
 
+  date:
+    path: D:\wya\work\flutter_wya\flutter_untils\date
 
   extension_data:
-    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/extension_data
+#    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/extension_data
+    path: D:\wya\work\flutter_wya\flutter_untils\extension_data
 
 # flutter_widgets
 
   segmentcontrol:
-    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/segmentcontrol
+#    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/segmentcontrol
+    path:  D:\wya\work\flutter_wya\flutter_widgets\segmentcontrol
 
   tableview:
 #    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/tableview
-    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/tableview
+#    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/tableview
+    path:  D:\wya\work\flutter_wya\flutter_widgets\tableview
 
 dev_dependencies:
   flutter_test:

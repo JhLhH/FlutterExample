@@ -12,7 +12,8 @@ class _UntilsPageState extends State<UntilsPage> {
   List<IconData> iconDatas = [Icons.memory, Icons.extension, Icons.alarm];
 
   Map<String, String> routeNames = {
-    'Cache': 'cache',
+    'Cache':'cache',
+    'Date':'date',
     'ExtensionData': 'ExtensionData'
   };
 
