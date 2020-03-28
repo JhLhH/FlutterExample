@@ -5,25 +5,15 @@ import 'package:flutter/services.dart';
 import 'package:flutterexample/widgets/table_model_entity.dart';
 import 'package:tableview/tableview.dart';
 
-class TableModel {
-  String title;
-  List<TableRowModel> rowModel;
-  bool isShow;
-  TableModel(this.title, this.rowModel, this.isShow);
-}
-
-class TableRowModel {
-  String title;
-  TableRowModel(this.title);
-}
-
 class TableViewDemo extends StatefulWidget {
   @override
   _TableViewDemoState createState() => _TableViewDemoState();
 }
 
 class _TableViewDemoState extends State<TableViewDemo> {
-  TableModelEntity _entity;
+  TableModelEntity _entity = TableModelEntity(
+    xList: [],
+  );
 
   @override
   void initState() {
@@ -41,11 +31,9 @@ class _TableViewDemoState extends State<TableViewDemo> {
 
   void loadData() async {
     String data = await rootBundle.loadString('resource/a.json');
-//    print(data);
-
-//    print(_entity);
+    TableModelEntity entity = TableModelEntity.fromJson(json.decode(data));
     setState(() {
-      _entity = TableModelEntity.fromJson(json.decode(data));
+      _entity = entity;
     });
   }
 
@@ -66,17 +54,63 @@ class _TableViewDemoState extends State<TableViewDemo> {
               child: Row(
                 children: <Widget>[
                   Icon(Icons.arrow_right),
-                  Text('aaa'),
+                  Text('${_entity.xList[index].name}'),
                 ],
               ),
             );
           },
-          sectionFooterView: (BuildContext context, int index) {
-            return Text('区尾');
-          },
           rowView: (BuildContext context, int section, int row) {
+            TableModelList list = _entity.xList[section];
+            TableModelListPerson person = list.persons[row];
             return InkWell(
-              child: Text('aaa'),
+              onTap: () {},
+              child: Column(
+                children: <Widget>[
+                  Row(
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.all(20),
+                        child: SizedBox(
+                          width: 50,
+                          height: 50,
+                          child: Image.network(person.url),
+                        ),
+                      ),
+                      Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: <Widget>[
+                          Text('官方名称:${person.officialName}'),
+                          Text('名字:${person.name}'),
+                          Text('网友戏称:${person.nickName}'),
+                        ],
+                      ),
+                    ],
+                  ),
+                  Padding(
+                    padding: EdgeInsets.only(left: 20),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('人生格言：${person.saying}'),
+                        Row(
+                          children: <Widget>[
+                            Text('战力值：'),
+                            SizedBox(
+                              width: 250,
+                              height: 5,
+                              child: LinearProgressIndicator(
+                                value: person.powerValue / 10000,
+                                backgroundColor: Colors.blue,
+                                valueColor: AlwaysStoppedAnimation(Colors.red),
+                              ),
+                            )
+                          ],
+                        )
+                      ],
+                    ),
+                  )
+                ],
+              ),
             );
           }),
     );

@@ -32,9 +32,11 @@ packages:
   cache:
     dependency: "direct main"
     description:
-      path: "/Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/cache"
-      relative: false
-    source: path
+      path: "flutter_untils/cache"
+      ref: HEAD
+      resolved-ref: "99105c76e82b92bf64d0e6cf370e0cadf6540ecb"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
     version: "0.0.1"
   charcode:
     dependency: transitive
@@ -81,16 +83,27 @@ packages:
   date:
     dependency: "direct main"
     description:
-      path: "/Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/date"
-      relative: false
-    source: path
+      path: "flutter_untils/date"
+      ref: HEAD
+      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
+  dialog:
+    dependency: "direct main"
+    description:
+      path: "flutter_widgets/dialog"
+      ref: HEAD
+      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
     version: "0.0.1"
   extension_data:
     dependency: "direct main"
     description:
       path: "flutter_untils/extension_data"
       ref: HEAD
-      resolved-ref: ac3028f2c4be678311fff7879da74a8913d3f94f
+      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -207,13 +220,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.5"
-  segmentcontrol:
-    dependency: "direct main"
-    description:
-      path: "/Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/segmentcontrol"
-      relative: false
-    source: path
-    version: "0.0.1"
   shared_preferences:
     dependency: transitive
     description:
@@ -278,9 +284,11 @@ packages:
   tableview:
     dependency: "direct main"
     description:
-      path: "/Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/tableview"
-      relative: false
-    source: path
+      path: "flutter_widgets/tableview"
+      ref: HEAD
+      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
     version: "0.0.1"
   term_glyph:
     dependency: transitive
@@ -296,6 +304,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.2.15"
+  toast:
+    dependency: "direct main"
+    description:
+      path: "flutter_widgets/toast"
+      ref: HEAD
+      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
   typed_data:
     dependency: transitive
     description:

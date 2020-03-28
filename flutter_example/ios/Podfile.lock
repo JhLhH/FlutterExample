@@ -1,6 +1,8 @@
 PODS:
   - cache (0.0.1):
     - Flutter
+  - date (0.0.1):
+    - Flutter
   - extension_data (0.0.1):
     - Flutter
   - Flutter (1.0.0)
@@ -19,6 +21,7 @@ PODS:
 
 DEPENDENCIES:
   - cache (from `.symlinks/plugins/cache/ios`)
+  - date (from `.symlinks/plugins/date/ios`)
   - extension_data (from `.symlinks/plugins/extension_data/ios`)
   - Flutter (from `Flutter`)
   - flutter_webview_plugin (from `.symlinks/plugins/flutter_webview_plugin/ios`)
@@ -31,6 +34,8 @@ DEPENDENCIES:
 EXTERNAL SOURCES:
   cache:
     :path: ".symlinks/plugins/cache/ios"
+  date:
+    :path: ".symlinks/plugins/date/ios"
   extension_data:
     :path: ".symlinks/plugins/extension_data/ios"
   Flutter:
@@ -50,6 +55,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   cache: 04880bbbaae09c4c08024c7713fc4ce55d25ff9b
+  date: 531b8aa381d2aaeb48a4c90c83a6275ac884701e
   extension_data: 8c935a988a06767a23d192b2b412cb152d7ffccf
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
@@ -61,4 +67,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.8.4

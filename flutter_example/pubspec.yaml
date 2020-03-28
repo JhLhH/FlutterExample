@@ -26,32 +26,42 @@ dependencies:
   cupertino_icons: ^0.1.3
   flutter_webview_plugin: ^0.3.10+1
   path_provider: ^1.6.5
+  flutter_html: ^0.11.1
+
+
+# flutter_untils
   extension_data:
     git:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_untils/extension_data
-  flutter_html: ^0.11.1
-
-# flutter_untils
-  cache:
-#    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_untils/cache
-    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/cache
-#    path: D:\wya\work\flutter_wya\flutter_untils\cache
 
   date:
-#    path: D:\wya\work\flutter_wya\flutter_untils\date
-    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_untils/date
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_untils/date
+
+  cache:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_untils/cache
 
 # flutter_widgets
 
-  segmentcontrol:
-    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/segmentcontrol
-#    path:  D:\wya\work\flutter_wya\flutter_widgets\segmentcontrol
-
   tableview:
-#    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/tableview
-    path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/tableview
-#    path:  D:\wya\work\flutter_wya\flutter_widgets\tableview
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/tableview
+
+  dialog:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/dialog
+
+  toast:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/toast
+
 
 dev_dependencies:
   flutter_test:
