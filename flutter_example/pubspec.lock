@@ -229,6 +229,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.5"
+  segmentcontrol:
+    dependency: "direct main"
+    description:
+      path: "flutter_widgets/segmentcontrol"
+      ref: HEAD
+      resolved-ref: "063c36acd5bc682a6151e006cc137ffd70417100"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
   shared_preferences:
     dependency: transitive
     description:
