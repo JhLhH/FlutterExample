@@ -37,10 +37,68 @@ class _TableViewDemoState extends State<TableViewDemo> {
     });
   }
 
+  Widget cell(BuildContext context, int section, int row) {
+    TableModelList list = _entity.xList[section];
+    TableModelListPerson person = list.persons[row];
+    return InkWell(
+      onTap: () {},
+      child: Column(
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              Padding(
+                padding: EdgeInsets.all(20),
+                child: SizedBox(
+                  width: 50,
+                  height: 50,
+                  child: Image.network(person.url),
+                ),
+              ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text('官方名称:${person.officialName}'),
+                  Text('名字:${person.name}'),
+                  Text('网友戏称:${person.nickName}'),
+                ],
+              ),
+            ],
+          ),
+          Padding(
+            padding: EdgeInsets.only(left: 20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text('人生格言：${person.saying}'),
+                Row(
+                  children: <Widget>[
+                    Text('战力值：'),
+                    SizedBox(
+                      width: 250,
+                      height: 5,
+                      child: LinearProgressIndicator(
+                        value: person.powerValue / 10000,
+                        backgroundColor: Colors.blue,
+                        valueColor: AlwaysStoppedAnimation(Colors.red),
+                      ),
+                    )
+                  ],
+                )
+              ],
+            ),
+          )
+        ],
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: TableView(
+        body: MediaQuery.removePadding(
+      context: context,
+      removeTop: true,
+      child: TableView(
           tableHeaderView: Image.asset('images/a.jpg'),
           tableFooterView: Text('ddd'),
           sectionNumber: _entity.xList.length,
@@ -60,59 +118,8 @@ class _TableViewDemoState extends State<TableViewDemo> {
             );
           },
           rowView: (BuildContext context, int section, int row) {
-            TableModelList list = _entity.xList[section];
-            TableModelListPerson person = list.persons[row];
-            return InkWell(
-              onTap: () {},
-              child: Column(
-                children: <Widget>[
-                  Row(
-                    children: <Widget>[
-                      Padding(
-                        padding: EdgeInsets.all(20),
-                        child: SizedBox(
-                          width: 50,
-                          height: 50,
-                          child: Image.network(person.url),
-                        ),
-                      ),
-                      Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: <Widget>[
-                          Text('官方名称:${person.officialName}'),
-                          Text('名字:${person.name}'),
-                          Text('网友戏称:${person.nickName}'),
-                        ],
-                      ),
-                    ],
-                  ),
-                  Padding(
-                    padding: EdgeInsets.only(left: 20),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: <Widget>[
-                        Text('人生格言：${person.saying}'),
-                        Row(
-                          children: <Widget>[
-                            Text('战力值：'),
-                            SizedBox(
-                              width: 250,
-                              height: 5,
-                              child: LinearProgressIndicator(
-                                value: person.powerValue / 10000,
-                                backgroundColor: Colors.blue,
-                                valueColor: AlwaysStoppedAnimation(Colors.red),
-                              ),
-                            )
-                          ],
-                        )
-                      ],
-                    ),
-                  )
-                ],
-              ),
-            );
+            return cell(context, section, row);
           }),
-    );
+    ));
   }
 }
