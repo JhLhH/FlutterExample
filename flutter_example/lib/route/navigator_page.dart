@@ -6,6 +6,7 @@ import 'package:flutterexample/docs/doc.dart';
 import 'package:flutterexample/untils/date.dart';
 import 'package:flutterexample/untils/extensiondata.dart';
 import 'package:flutterexample/widgets/searchbar.dart';
+import 'package:flutterexample/widgets/noticebarpage.dart';
 import 'package:flutterexample/widgets/segmentedcontrol.dart';
 import 'package:flutterexample/widgets/tableview.dart';
 import 'package:flutterexample/route/hardware_page.dart';
@@ -67,6 +68,7 @@ class _MyAppState extends State<MyApp> {
         'toast': (context) => ToastPage(),
         'tableview': (context) => TableViewDemo(),
         'SearchBar':(context) => SearchBarPage(),
+        'noticebar' : (context) => NoticeBarPage(),
       },
     );
   }

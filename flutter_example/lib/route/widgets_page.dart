@@ -40,7 +40,8 @@ class _WidgetsPageState extends State<WidgetsPage> {
     'SegmentedControl':'SegmentedControl',
     'Dialog' : 'dialog',
     'Toast' : 'toast',
-    'SearchBar': 'SearchBar'
+    'SearchBar': 'SearchBar',
+    'NoticeBar': 'noticebar',
   };
 
   @override

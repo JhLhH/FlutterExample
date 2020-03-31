@@ -164,6 +164,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.8"
+  noticebar:
+    dependency: "direct main"
+    description:
+      path: "flutter_widgets/noticebar"
+      ref: HEAD
+      resolved-ref: "4ce7006564ad7cca5abab51d5c63765608122a34"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
   path:
     dependency: transitive
     description:

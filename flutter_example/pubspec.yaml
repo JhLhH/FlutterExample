@@ -61,6 +61,11 @@ dependencies:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_widgets/toast
 
+  noticebar:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/noticebar
+
   segmentcontrol:
     git:
       url: https://github.com/wya-team/flutter_wya.git
