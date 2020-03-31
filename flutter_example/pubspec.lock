@@ -223,9 +223,11 @@ packages:
   searchbar:
     dependency: "direct main"
     description:
-      path: "/Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/searchbar"
-      relative: false
-    source: path
+      path: "flutter_widgets/searchbar"
+      ref: HEAD
+      resolved-ref: cacac046b46b73f93fb8f11b6c52fa1c39f915af
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
     version: "0.0.1"
   segmentcontrol:
     dependency: "direct main"
