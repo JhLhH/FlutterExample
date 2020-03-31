@@ -25,12 +25,16 @@ class _HardwarePageState extends State<HardwarePage> {
     Icons.video_library,
   ];
 
+  Map<String, String> routeNames = {
+    'Record':'record',
+  };
+
   @override
   Widget build(BuildContext context) {
     return GridViewPage(
       titles: titles,
       iconDatas: iconDatas,
-//      routeNames: [],
+      routeNames: routeNames,
     );
   }
 }

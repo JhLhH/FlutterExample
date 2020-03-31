@@ -6,11 +6,19 @@ PODS:
   - extension_data (0.0.1):
     - Flutter
   - Flutter (1.0.0)
+  - flutter_sound (0.0.1):
+    - Flutter
   - flutter_webview_plugin (0.0.1):
     - Flutter
+  - native_record (0.0.1):
+    - Flutter
+    - NTYAmrConverter
+  - NTYAmrConverter (0.1.0)
   - path_provider (0.0.1):
     - Flutter
   - path_provider_macos (0.0.1):
+    - Flutter
+  - "permission_handler (4.4.0+hotfix.2)":
     - Flutter
   - shared_preferences (0.0.1):
     - Flutter
@@ -24,12 +32,19 @@ DEPENDENCIES:
   - date (from `.symlinks/plugins/date/ios`)
   - extension_data (from `.symlinks/plugins/extension_data/ios`)
   - Flutter (from `Flutter`)
+  - flutter_sound (from `.symlinks/plugins/flutter_sound/ios`)
   - flutter_webview_plugin (from `.symlinks/plugins/flutter_webview_plugin/ios`)
+  - native_record (from `.symlinks/plugins/native_record/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
   - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
   - shared_preferences_macos (from `.symlinks/plugins/shared_preferences_macos/ios`)
   - shared_preferences_web (from `.symlinks/plugins/shared_preferences_web/ios`)
+
+SPEC REPOS:
+  trunk:
+    - NTYAmrConverter
 
 EXTERNAL SOURCES:
   cache:
@@ -40,12 +55,18 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/extension_data/ios"
   Flutter:
     :path: Flutter
+  flutter_sound:
+    :path: ".symlinks/plugins/flutter_sound/ios"
   flutter_webview_plugin:
     :path: ".symlinks/plugins/flutter_webview_plugin/ios"
+  native_record:
+    :path: ".symlinks/plugins/native_record/ios"
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
   path_provider_macos:
     :path: ".symlinks/plugins/path_provider_macos/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
   shared_preferences:
     :path: ".symlinks/plugins/shared_preferences/ios"
   shared_preferences_macos:
@@ -58,13 +79,17 @@ SPEC CHECKSUMS:
   date: 531b8aa381d2aaeb48a4c90c83a6275ac884701e
   extension_data: 8c935a988a06767a23d192b2b412cb152d7ffccf
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_sound: 0e8163ceac1e00eb6d894e2ae4641ba726a2c479
   flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
+  native_record: 6b7bab25a265612148ccf38500bbb457fa34a8a6
+  NTYAmrConverter: 0cd46d044576b1985f9879b4e5164aa25500b658
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
   path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
+  permission_handler: d5d46b2ca93671e8dcf870b949e304c7ddb65ad0
   shared_preferences: 430726339841afefe5142b9c1f50cb6bd7793e01
   shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
   shared_preferences_web: 141cce0c3ed1a1c5bf2a0e44f52d31eeb66e5ea9
 
 PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.8.4

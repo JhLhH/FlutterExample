@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutterexample/customwidget/dialog_page.dart';
 import 'package:flutterexample/customwidget/toast_page.dart';
+import 'package:flutterexample/hardware/native_record_page.dart';
+import 'package:flutterexample/widgets/round_checkbox_page.dart';
 import 'package:flutterexample/untils/cache.dart';
 import 'package:flutterexample/docs/doc.dart';
 import 'package:flutterexample/untils/date.dart';
@@ -67,6 +69,8 @@ class _MyAppState extends State<MyApp> {
         'toast': (context) => ToastPage(),
         'tableview': (context) => TableViewDemo(),
         'noticebar' : (context) => NoticeBarPage(),
+        'checkbox' : (context) => RoundCheckBoxPage(),
+        'record' : (context) => RecordPage(),
       },
     );
   }

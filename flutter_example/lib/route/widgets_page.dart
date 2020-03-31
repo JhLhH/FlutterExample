@@ -18,7 +18,8 @@ class _WidgetsPageState extends State<WidgetsPage> {
     'LoginTextField',
     'step',
     'tableView',
-    'SegmentedControl'
+    'SegmentedControl',
+    'RoundCheckBox',
   ];
 
   List<IconData> iconDatas = [
@@ -32,7 +33,8 @@ class _WidgetsPageState extends State<WidgetsPage> {
     Icons.exit_to_app,
     Icons.format_list_numbered,
     Icons.list,
-    Icons.work
+    Icons.work,
+    Icons.check_circle,
   ];
 
   Map<String, String> routeName = {
@@ -41,6 +43,7 @@ class _WidgetsPageState extends State<WidgetsPage> {
     'Dialog' : 'dialog',
     'Toast' : 'toast',
     'NoticeBar' : 'noticebar',
+    'RoundCheckBox' : 'checkbox'
   };
 
   @override
