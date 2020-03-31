@@ -220,6 +220,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.5"
+  searchbar:
+    dependency: "direct main"
+    description:
+      path: "/Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_widgets/searchbar"
+      relative: false
+    source: path
+    version: "0.0.1"
   segmentcontrol:
     dependency: "direct main"
     description:
