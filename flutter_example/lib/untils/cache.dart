@@ -64,7 +64,7 @@ class _CachePageState extends State<CachePage> {
       appBar: AppBar(
         title: Text('Cache'),
         actions: <Widget>[
-          PopupmenButtonPage(
+          PopupMenButtonPage(
             titles: ['查看文档','查看Demo'],
             urls: pushUrls,
           ),

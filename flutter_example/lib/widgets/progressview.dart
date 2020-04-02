@@ -28,7 +28,7 @@ class _ProgressViewWidgetPageState extends State<ProgressViewWidgetPage>
           },
         ),
         actions: <Widget>[
-          PopupmenButtonPage(
+          PopupMenButtonPage(
             titles: ['查看文档'],
             urls: urls,
           ),
