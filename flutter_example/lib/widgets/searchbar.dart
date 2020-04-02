@@ -9,7 +9,6 @@ class SearchBarPage extends StatefulWidget {
 }
 
 class _SearchBarPageState extends State<SearchBarPage> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -22,9 +21,11 @@ class _SearchBarPageState extends State<SearchBarPage> {
             },
           ),
           actions: <Widget>[
-            PopupmenButtonPage(
+            PopupMenButtonPage(
               titles: ['查看文档'],
-//            urls: urls,
+              urls: [
+                'https://github.com/wya-team/flutter_wya/blob/master/flutter_widgets/searchbar/README.md'
+              ],
             ),
           ],
         ),
@@ -34,31 +35,30 @@ class _SearchBarPageState extends State<SearchBarPage> {
               // 触摸收起键盘
               FocusScope.of(context).requestFocus(FocusNode());
             },
-            child:_getWidget()
-        )
-    );
+            child: _getWidget()));
   }
-  _getWidget(){
-    return  Column(
+
+  _getWidget() {
+    return Column(
       children: <Widget>[
         SearchBar(
           searchBarType: SearchBarType.center,
           hint: '搜索居中',
-          onChanged: (text){
+          onChanged: (text) {
             print('中间搜索框输入内容：$text');
           },
         ),
         SearchBar(
           searchBarType: SearchBarType.normal,
           hint: '搜索左侧',
-          onChanged: (text){
+          onChanged: (text) {
             print('普通搜索框输入内容：$text');
           },
         ),
         SearchBar(
           searchBarType: SearchBarType.cancel,
           hint: '搜索+取消',
-          onChanged: (text){
+          onChanged: (text) {
             print('取消搜索框输入内容：$text');
           },
         ),

@@ -54,7 +54,7 @@ class _CustomSegmentedControlState extends State<CustomSegmentedControl> {
           },
         ),
         actions: <Widget>[
-          PopupmenButtonPage(
+          PopupMenButtonPage(
             titles: ['查看文档'],
             urls: urls,
           ),
