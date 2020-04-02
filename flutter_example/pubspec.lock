@@ -119,13 +119,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.11.1"
-  flutter_sound:
-    dependency: "direct main"
-    description:
-      name: flutter_sound
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "3.0.0+1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -157,13 +150,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.4"
-  intl:
-    dependency: "direct main"
-    description:
-      name: intl
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "0.16.1"
   matcher:
     dependency: transitive
     description:
@@ -178,19 +164,12 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.8"
-  native_record:
-    dependency: "direct main"
-    description:
-      path: "/Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_hardware/native_record"
-      relative: false
-    source: path
-    version: "0.0.1"
   noticebar:
     dependency: "direct main"
     description:
       path: "flutter_widgets/noticebar"
       ref: HEAD
-      resolved-ref: "60c3c89185d225f65d6a10857a57c29ecc78ecac"
+      resolved-ref: "4ce7006564ad7cca5abab51d5c63765608122a34"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -222,20 +201,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.1"
-  permission_handler:
-    dependency: transitive
-    description:
-      name: permission_handler
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "4.4.0+hotfix.2"
-  permission_handler_platform_interface:
-    dependency: transitive
-    description:
-      name: permission_handler_platform_interface
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "1.0.0"
   petitparser:
     dependency: transitive
     description:
@@ -264,12 +229,12 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.5"
-  round_checkbox:
+  searchbar:
     dependency: "direct main"
     description:
-      path: "flutter_widgets/round_checkbox"
+      path: "flutter_widgets/searchbar"
       ref: HEAD
-      resolved-ref: ab925710715a14cb8f3dd967dc33bdb21ed47875
+      resolved-ref: cacac046b46b73f93fb8f11b6c52fa1c39f915af
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -329,13 +294,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.9.3"
-  step:
-    dependency: "direct main"
-    description:
-      path: "/Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/step"
-      relative: false
-    source: path
-    version: "0.0.1"
   stream_channel:
     dependency: transitive
     description:
@@ -404,5 +362,5 @@ packages:
     source: hosted
     version: "3.5.0"
 sdks:
-  dart: ">=2.5.0 <3.0.0"
+  dart: ">=2.4.0 <3.0.0"
   flutter: ">=1.12.13+hotfix.4 <2.0.0"
