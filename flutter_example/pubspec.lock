@@ -34,7 +34,7 @@ packages:
     description:
       path: "flutter_untils/cache"
       ref: HEAD
-      resolved-ref: "99105c76e82b92bf64d0e6cf370e0cadf6540ecb"
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -85,7 +85,7 @@ packages:
     description:
       path: "flutter_untils/date"
       ref: HEAD
-      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -94,7 +94,7 @@ packages:
     description:
       path: "flutter_widgets/dialog"
       ref: HEAD
-      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -103,7 +103,7 @@ packages:
     description:
       path: "flutter_untils/extension_data"
       ref: HEAD
-      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -119,6 +119,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.11.1"
+  flutter_sound:
+    dependency: "direct main"
+    description:
+      name: flutter_sound
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.0.0+1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -150,6 +157,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.4"
+  intl:
+    dependency: "direct main"
+    description:
+      name: intl
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.16.1"
   matcher:
     dependency: transitive
     description:
@@ -164,12 +178,21 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.1.8"
+  native_record:
+    dependency: "direct main"
+    description:
+      path: "flutter_hardware/native_record"
+      ref: HEAD
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
   noticebar:
     dependency: "direct main"
     description:
       path: "flutter_widgets/noticebar"
       ref: HEAD
-      resolved-ref: "4ce7006564ad7cca5abab51d5c63765608122a34"
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -201,6 +224,27 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.1"
+  pedantic:
+    dependency: transitive
+    description:
+      name: pedantic
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.8.0+1"
+  permission_handler:
+    dependency: transitive
+    description:
+      name: permission_handler
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "4.4.0+hotfix.4"
+  permission_handler_platform_interface:
+    dependency: transitive
+    description:
+      name: permission_handler_platform_interface
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.0"
   petitparser:
     dependency: transitive
     description:
@@ -222,6 +266,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.2"
+  progressview:
+    dependency: "direct main"
+    description:
+      path: "flutter_widgets/progressview"
+      ref: HEAD
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
   quiver:
     dependency: transitive
     description:
@@ -229,12 +282,21 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.0.5"
+  round_checkbox:
+    dependency: "direct main"
+    description:
+      path: "flutter_widgets/round_checkbox"
+      ref: HEAD
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
   searchbar:
     dependency: "direct main"
     description:
       path: "flutter_widgets/searchbar"
       ref: HEAD
-      resolved-ref: cacac046b46b73f93fb8f11b6c52fa1c39f915af
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -243,7 +305,7 @@ packages:
     description:
       path: "flutter_widgets/segmentcontrol"
       ref: HEAD
-      resolved-ref: "063c36acd5bc682a6151e006cc137ffd70417100"
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -294,6 +356,15 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.9.3"
+  step:
+    dependency: "direct main"
+    description:
+      path: "flutter_widgets/step"
+      ref: HEAD
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
   stream_channel:
     dependency: transitive
     description:
@@ -313,7 +384,7 @@ packages:
     description:
       path: "flutter_widgets/tableview"
       ref: HEAD
-      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -330,13 +401,13 @@ packages:
       name: test_api
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.2.15"
+    version: "0.2.11"
   toast:
     dependency: "direct main"
     description:
       path: "flutter_widgets/toast"
       ref: HEAD
-      resolved-ref: "0a2d519800c7bfa2f0df889f3e0fdcb0f7f2832a"
+      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -362,5 +433,5 @@ packages:
     source: hosted
     version: "3.5.0"
 sdks:
-  dart: ">=2.4.0 <3.0.0"
+  dart: ">=2.5.0 <3.0.0"
   flutter: ">=1.12.13+hotfix.4 <2.0.0"

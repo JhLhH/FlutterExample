@@ -20,7 +20,7 @@ class _RecordPageState extends State<RecordPage> {
       canDispose = false;
     });
     String result = await flutterSound.startRecorder(
-      codec: t_CODEC.CODEC_AAC,
+//      codec: t_CODEC.CODEC_AAC,
     );
 //    _recorderSubscription = flutterSound.onRecorderStateChanged.listen((e) {
 //      DateTime date = new DateTime.fromMillisecondsSinceEpoch(e.currentPosition.toInt());

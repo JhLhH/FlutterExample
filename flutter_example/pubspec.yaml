@@ -27,7 +27,7 @@ dependencies:
   flutter_webview_plugin: ^0.3.10+1
   path_provider: ^1.6.5
   flutter_html: ^0.11.1
-  flutter_sound: ^3.0.0+1
+  flutter_sound: 3.0.0+1
   intl: ^0.16.1
 
 # flutter_untils
@@ -92,6 +92,12 @@ dependencies:
     git:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_hardware/native_record
+
+
+  progressview:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/progressview
 
 
 dev_dependencies:

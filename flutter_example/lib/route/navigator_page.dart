@@ -7,6 +7,7 @@ import 'package:flutterexample/untils/cache.dart';
 import 'package:flutterexample/docs/doc.dart';
 import 'package:flutterexample/untils/date.dart';
 import 'package:flutterexample/untils/extensiondata.dart';
+import 'package:flutterexample/widgets/progressview.dart';
 import 'package:flutterexample/widgets/searchbar.dart';
 import 'package:flutterexample/widgets/noticebarpage.dart';
 import 'package:flutterexample/widgets/segmentedcontrol.dart';
@@ -75,6 +76,7 @@ class _MyAppState extends State<MyApp> {
         'checkbox' : (context) => RoundCheckBoxPage(),
         'record' : (context) => RecordPage(),
         'step': (context) => StepPage(),
+        'progressview' : (context) => ProgressViewWidgetPage(),
       },
     );
   }

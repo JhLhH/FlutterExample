@@ -38,20 +38,21 @@ class _WidgetsPageState extends State<WidgetsPage> {
   ];
 
   Map<String, String> routeName = {
-    'TableView' : 'tableview',
-    'SegmentedControl':'SegmentedControl',
-    'Dialog' : 'dialog',
-    'Toast' : 'toast',
-    'NoticeBar' : 'noticebar',
-    'RoundCheckBox' : 'checkbox',
-    'Step' : 'step',
+    'TableView': 'tableview',
+    'SegmentedControl': 'SegmentedControl',
+    'Dialog': 'dialog',
+    'Toast': 'toast',
+    'NoticeBar': 'noticebar',
+    'RoundCheckBox': 'checkbox',
+    'Step': 'step',
+    'ProgressView': 'progressview',
   };
 
   @override
   Widget build(BuildContext context) {
     return GridViewPage(
-      titles:titles,
-      iconDatas:iconDatas,
+      titles: titles,
+      iconDatas: iconDatas,
       routeNames: routeName,
     );
   }
