@@ -224,13 +224,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.1"
-  pedantic:
-    dependency: transitive
-    description:
-      name: pedantic
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "1.8.0+1"
   permission_handler:
     dependency: transitive
     description:
@@ -361,7 +354,7 @@ packages:
     description:
       path: "flutter_widgets/step"
       ref: HEAD
-      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
+      resolved-ref: "18641ebae8bfdf7c5dc86eb6852e11dc867791a6"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -401,7 +394,7 @@ packages:
       name: test_api
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.2.11"
+    version: "0.2.15"
   toast:
     dependency: "direct main"
     description:
