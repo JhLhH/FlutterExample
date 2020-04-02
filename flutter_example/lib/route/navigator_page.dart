@@ -9,6 +9,7 @@ import 'package:flutterexample/untils/date.dart';
 import 'package:flutterexample/untils/extensiondata.dart';
 import 'package:flutterexample/widgets/noticebarpage.dart';
 import 'package:flutterexample/widgets/segmentedcontrol.dart';
+import 'package:flutterexample/widgets/steppage.dart';
 import 'package:flutterexample/widgets/tableview.dart';
 import 'package:flutterexample/route/hardware_page.dart';
 import 'package:flutterexample/route/untils_page.dart';
@@ -71,6 +72,7 @@ class _MyAppState extends State<MyApp> {
         'noticebar' : (context) => NoticeBarPage(),
         'checkbox' : (context) => RoundCheckBoxPage(),
         'record' : (context) => RecordPage(),
+        'step': (context) => StepPage(),
       },
     );
   }

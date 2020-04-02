@@ -16,8 +16,8 @@ class _WidgetsPageState extends State<WidgetsPage> {
     'SearchBar',
     'Slider',
     'LoginTextField',
-    'step',
-    'tableView',
+    'Step',
+    'TableView',
     'SegmentedControl',
     'RoundCheckBox',
   ];
@@ -38,12 +38,13 @@ class _WidgetsPageState extends State<WidgetsPage> {
   ];
 
   Map<String, String> routeName = {
-    'tableView' : 'tableview',
+    'TableView' : 'tableview',
     'SegmentedControl':'SegmentedControl',
     'Dialog' : 'dialog',
     'Toast' : 'toast',
     'NoticeBar' : 'noticebar',
-    'RoundCheckBox' : 'checkbox'
+    'RoundCheckBox' : 'checkbox',
+    'Step' : 'step',
   };
 
   @override

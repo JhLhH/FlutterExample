@@ -329,6 +329,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.9.3"
+  step:
+    dependency: "direct main"
+    description:
+      path: "/Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/step"
+      relative: false
+    source: path
+    version: "0.0.1"
   stream_channel:
     dependency: transitive
     description:
