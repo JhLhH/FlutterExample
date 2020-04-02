@@ -82,12 +82,13 @@ dependencies:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_widgets/searchbar
 
-#  step:
-#    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/step
+  step:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/step
 
 # flutter_hardware
   native_record:
-#    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_hardware/native_record
     git:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_hardware/native_record
