@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterexample/customwidget/popupmenbutton_page.dart';
-//import 'package:searchbar/searchbar.dart';
-//import 'package:searchbar/searchbar_center.dart';
+import 'package:searchbar/searchbar.dart';
 
 class SearchBarPage extends StatefulWidget {
   @override
@@ -10,7 +9,6 @@ class SearchBarPage extends StatefulWidget {
 }
 
 class _SearchBarPageState extends State<SearchBarPage> {
-  String value = '';
 
   @override
   Widget build(BuildContext context) {
@@ -43,27 +41,27 @@ class _SearchBarPageState extends State<SearchBarPage> {
   _getWidget(){
     return  Column(
       children: <Widget>[
-//        SearchBar(
-//          title: Text('搜索'),
-//          margin: EdgeInsets.all(10),
-//          padding: EdgeInsets.only(left: 10, right: 10),
-//          height: 44,
-//          borderColor: Colors.white,
-//          borderWidth: 2,
-//          borderRadius: 8,
-//        ),
-//        SearchBarCenter(
-//          title: Text('搜索'),
-//          margin: EdgeInsets.all(10),
-//          padding: EdgeInsets.only(left: 10, right: 10),
-//          height: 44,
-//          borderColor: Colors.white,
-//          borderWidth: 2,
-//          borderRadius: 8,
-//          onChanged: (text){
-//            print(text);
-//          },
-//        )
+        SearchBar(
+          searchBarType: SearchBarType.center,
+          hint: '搜索居中',
+          onChanged: (text){
+            print('中间搜索框输入内容：$text');
+          },
+        ),
+        SearchBar(
+          searchBarType: SearchBarType.normal,
+          hint: '搜索左侧',
+          onChanged: (text){
+            print('普通搜索框输入内容：$text');
+          },
+        ),
+        SearchBar(
+          searchBarType: SearchBarType.cancel,
+          hint: '搜索+取消',
+          onChanged: (text){
+            print('取消搜索框输入内容：$text');
+          },
+        ),
       ],
     );
   }

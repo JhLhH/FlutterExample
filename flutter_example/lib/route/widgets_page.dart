@@ -42,6 +42,7 @@ class _WidgetsPageState extends State<WidgetsPage> {
     'SegmentedControl': 'SegmentedControl',
     'Dialog': 'dialog',
     'Toast': 'toast',
+    'SearchBar':'SearchBar',
     'NoticeBar': 'noticebar',
     'RoundCheckBox': 'checkbox',
     'Step': 'step',
