@@ -11,6 +11,7 @@ import 'package:flutterexample/widgets/progressview.dart';
 import 'package:flutterexample/widgets/searchbar.dart';
 import 'package:flutterexample/widgets/noticebarpage.dart';
 import 'package:flutterexample/widgets/segmentedcontrol.dart';
+import 'package:flutterexample/widgets/sliderpage.dart';
 import 'package:flutterexample/widgets/steppage.dart';
 import 'package:flutterexample/widgets/tableview.dart';
 import 'package:flutterexample/route/hardware_page.dart';
@@ -77,6 +78,7 @@ class _MyAppState extends State<MyApp> {
         'record' : (context) => RecordPage(),
         'step': (context) => StepPage(),
         'progressview' : (context) => ProgressViewWidgetPage(),
+        'SliderPage' : (context) => SliderPage(),
       },
     );
   }

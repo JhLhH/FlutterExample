@@ -72,6 +72,11 @@ dependencies:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_widgets/segmentcontrol
 
+  slider:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/slider
+
   round_checkbox:
     git:
       url: https://github.com/wya-team/flutter_wya.git

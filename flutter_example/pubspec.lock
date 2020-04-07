@@ -335,6 +335,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  slider:
+    dependency: "direct main"
+    description:
+      path: "flutter_widgets/slider"
+      ref: HEAD
+      resolved-ref: a2e39204ab813817e2595270d94f0af146e833fd
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
   source_span:
     dependency: transitive
     description:
