@@ -363,7 +363,7 @@ packages:
     description:
       path: "flutter_widgets/step"
       ref: HEAD
-      resolved-ref: "022e188be68bd749c1a9a28c7104e2c5862ec78f"
+      resolved-ref: "18641ebae8bfdf7c5dc86eb6852e11dc867791a6"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
