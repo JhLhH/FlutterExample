@@ -87,7 +87,10 @@ dependencies:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_widgets/step
 
-# flutter_hardware
+  image_preview:
+    path: /Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/image_preview
+
+  # flutter_hardware
   native_record:
     git:
       url: https://github.com/wya-team/flutter_wya.git

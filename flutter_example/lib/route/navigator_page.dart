@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterexample/customwidget/dialog_page.dart';
 import 'package:flutterexample/customwidget/toast_page.dart';
 import 'package:flutterexample/hardware/native_record_page.dart';
+import 'package:flutterexample/widgets/image_preview_page.dart';
 import 'package:flutterexample/widgets/round_checkbox_page.dart';
 import 'package:flutterexample/untils/cache.dart';
 import 'package:flutterexample/docs/doc.dart';
@@ -77,6 +78,7 @@ class _MyAppState extends State<MyApp> {
         'record' : (context) => RecordPage(),
         'step': (context) => StepPage(),
         'progressview' : (context) => ProgressViewWidgetPage(),
+        'imagepreview' : (context) => ImagePreviewPage(),
       },
     );
   }
