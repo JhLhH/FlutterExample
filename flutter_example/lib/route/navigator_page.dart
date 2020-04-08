@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterexample/customwidget/dialog_page.dart';
 import 'package:flutterexample/customwidget/toast_page.dart';
+import 'package:flutterexample/hardware/device_info.dart';
 import 'package:flutterexample/hardware/native_record_page.dart';
 import 'package:flutterexample/widgets/round_checkbox_page.dart';
 import 'package:flutterexample/untils/cache.dart';
@@ -79,6 +80,7 @@ class _MyAppState extends State<MyApp> {
         'step': (context) => StepPage(),
         'progressview' : (context) => ProgressViewWidgetPage(),
         'SliderPage' : (context) => SliderPage(),
+        'DeviceInfo' : (context) => DeviceInfo()
       },
     );
   }

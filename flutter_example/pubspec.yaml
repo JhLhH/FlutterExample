@@ -104,6 +104,9 @@ dependencies:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_widgets/progressview
 
+  device_info: ^0.4.2+1
+
+
 
 dev_dependencies:
   flutter_test:
