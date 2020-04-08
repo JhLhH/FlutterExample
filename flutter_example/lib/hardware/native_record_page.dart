@@ -1,8 +1,8 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_sound/flutter_sound.dart';
-import 'package:intl/intl.dart' show DateFormat;
 import 'package:native_record/native_record.dart';
 
 class RecordPage extends StatefulWidget {
@@ -15,13 +15,29 @@ class _RecordPageState extends State<RecordPage> {
   StreamSubscription _recorderSubscription;
   String path = '这里显示录音的音频路径';
   bool canDispose = true;
+  String myUri = "/storage/emulated/0/wya/record";
+
   void startRecord() async {
     setState(() {
       canDispose = false;
     });
-    String result = await flutterSound.startRecorder(
-//      codec: t_CODEC.CODEC_AAC,
-    );
+
+    Directory directory = Directory(myUri);
+    await directory.create();
+
+    String result;
+    if (Platform.isIOS) {
+      result = await flutterSound.startRecorder(
+        codec: t_CODEC.CODEC_AAC,
+      );
+    } else if (Platform.isAndroid) {
+      // TODO 录音前做SD卡权限申请
+      result = await flutterSound.startRecorder(
+        uri: myUri + "/android_record.aac",
+        codec: t_CODEC.CODEC_AAC,
+      );
+    }
+
 //    _recorderSubscription = flutterSound.onRecorderStateChanged.listen((e) {
 //      DateTime date = new DateTime.fromMillisecondsSinceEpoch(e.currentPosition.toInt());
 //      String txt = DateFormat('mm:ss:SS', 'en_US').format(date);
@@ -129,6 +145,7 @@ class ImagesAnim extends StatefulWidget {
   final double height;
   final Color backColor;
   bool disposed = false;
+
   ImagesAnim(this.imageCaches, this.width, this.height, this.backColor,
       {Key key, this.disposed})
       : assert(imageCaches != null),

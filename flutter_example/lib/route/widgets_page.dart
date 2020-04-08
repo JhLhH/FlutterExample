@@ -48,6 +48,7 @@ class _WidgetsPageState extends State<WidgetsPage> {
     'Step': 'step',
     'ProgressView': 'progressview',
     'ImagePreview' : 'imagepreview',
+    'Slider' : 'SliderPage'
   };
 
   @override

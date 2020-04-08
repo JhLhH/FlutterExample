@@ -27,6 +27,7 @@ dependencies:
   flutter_webview_plugin: ^0.3.10+1
   path_provider: ^1.6.5
   flutter_html: ^0.11.1
+  permission_handler: ^4.4.0+hotfix.4
   flutter_sound: 3.0.0+1
   intl: ^0.16.1
 
@@ -72,6 +73,11 @@ dependencies:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_widgets/segmentcontrol
 
+  slider:
+    git:
+      url: https://github.com/wya-team/flutter_wya.git
+      path: flutter_widgets/slider
+
   round_checkbox:
     git:
       url: https://github.com/wya-team/flutter_wya.git
@@ -101,6 +107,11 @@ dependencies:
     git:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_widgets/progressview
+
+  device_info: ^0.4.2+1
+
+
+
 
 
 dev_dependencies:

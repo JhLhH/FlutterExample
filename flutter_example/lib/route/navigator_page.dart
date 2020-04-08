@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutterexample/customwidget/dialog_page.dart';
 import 'package:flutterexample/customwidget/toast_page.dart';
+import 'package:flutterexample/hardware/device_info.dart';
 import 'package:flutterexample/hardware/native_record_page.dart';
 import 'package:flutterexample/widgets/image_preview_page.dart';
 import 'package:flutterexample/widgets/round_checkbox_page.dart';
@@ -12,6 +13,7 @@ import 'package:flutterexample/widgets/progressview.dart';
 import 'package:flutterexample/widgets/searchbar.dart';
 import 'package:flutterexample/widgets/noticebarpage.dart';
 import 'package:flutterexample/widgets/segmentedcontrol.dart';
+import 'package:flutterexample/widgets/sliderpage.dart';
 import 'package:flutterexample/widgets/steppage.dart';
 import 'package:flutterexample/widgets/tableview.dart';
 import 'package:flutterexample/route/hardware_page.dart';
@@ -79,6 +81,8 @@ class _MyAppState extends State<MyApp> {
         'step': (context) => StepPage(),
         'progressview' : (context) => ProgressViewWidgetPage(),
         'imagepreview' : (context) => ImagePreviewPage(),
+        'SliderPage' : (context) => SliderPage(),
+        'DeviceInfo' : (context) => DeviceInfo()
       },
     );
   }

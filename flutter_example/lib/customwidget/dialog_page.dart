@@ -9,7 +9,6 @@ class DialogPage extends StatefulWidget {
 
 class _DialogPageState extends State<DialogPage> {
   var list = ['1', '2', '3', '4'];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -93,15 +92,14 @@ class _DialogPageState extends State<DialogPage> {
                         title: Text("标题"),
                         content: SingleChildScrollView(
                           child: ListBody(
-                            children: <Widget>[
-                              for (var i in list)
-                                InkWell(
-                                  child: Text(i),
-                                  onTap: () {
-                                    print(i);
-                                  },
-                                ),
-                            ],
+                            children: list
+                                .map((i) => InkWell(
+                                      child: Text(i),
+                                      onTap: () {
+                                        print(i);
+                                      },
+                                    ))
+                                .toList(),
                           ),
                         ),
                       ),
@@ -122,9 +120,7 @@ class _DialogPageState extends State<DialogPage> {
                 showSimpleListDialog(
                     context: context,
                     simpleBuilder: SimpleBuilder(),
-                    children: <Widget>[
-                      for (var i in list) Text(i),
-                    ],
+                    children: list.map((title) => Text(title)).toList(),
                     onItemCallBack: (index) {
                       print(list[index]);
                     });
