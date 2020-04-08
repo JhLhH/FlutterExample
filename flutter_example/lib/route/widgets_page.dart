@@ -47,6 +47,7 @@ class _WidgetsPageState extends State<WidgetsPage> {
     'RoundCheckBox': 'checkbox',
     'Step': 'step',
     'ProgressView': 'progressview',
+    'ImagePreview' : 'imagepreview',
     'Slider' : 'SliderPage'
   };
 

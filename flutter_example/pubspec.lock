@@ -105,6 +105,20 @@ packages:
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
+  extended_image:
+    dependency: transitive
+    description:
+      path: "/Users/lishihang/Desktop/extended_image-master"
+      relative: false
+    source: path
+    version: "0.7.2"
+  extended_image_library:
+    dependency: transitive
+    description:
+      name: extended_image_library
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.2.2"
   extension_data:
     dependency: "direct main"
     description:
@@ -164,6 +178,27 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.14.0+3"
+  http:
+    dependency: transitive
+    description:
+      name: http
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.12.0+4"
+  http_client_helper:
+    dependency: transitive
+    description:
+      name: http_client_helper
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "0.2.1"
+  http_parser:
+    dependency: transitive
+    description:
+      name: http_parser
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.1.4"
   image:
     dependency: transitive
     description:
@@ -171,6 +206,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.1.12"
+  image_preview:
+    dependency: "direct main"
+    description:
+      path: "/Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_widgets/image_preview"
+      relative: false
+    source: path
+    version: "0.0.1"
   intl:
     dependency: "direct main"
     description:
@@ -238,6 +280,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.1"
+  pedantic:
+    dependency: transitive
+    description:
+      name: pedantic
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.9.0"
   permission_handler:
     dependency: "direct main"
     description:
