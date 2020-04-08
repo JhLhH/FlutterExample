@@ -30,6 +30,7 @@ dependencies:
   permission_handler: ^4.4.0+hotfix.4
   flutter_sound: 3.0.0+1
   intl: ^0.16.1
+  fluttertoast: ^4.0.1
 
 # flutter_untils
   extension_data:

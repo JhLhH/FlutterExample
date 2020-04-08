@@ -27,7 +27,8 @@ class _HardwarePageState extends State<HardwarePage> {
 
   Map<String, String> routeNames = {
     'Record':'record',
-    'DeviceInfo':'DeviceInfo'
+    'DeviceInfo':'DeviceInfo',
+    'Permissions':'PermissionPage'
   };
 
   @override
