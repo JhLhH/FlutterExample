@@ -19,15 +19,6 @@ class _ToastPageState extends State<ToastPage> {
     );
   }
 
-  void showWebColoredToast() {
-    CustomToast.showToast(
-      msg: "This is Colored Toast with android duration of 5 Sec",
-      toastLength: Toast.LENGTH_SHORT,
-      webBgColor: "#e74c3c",
-      timeInSecForIosWeb: 5,
-    );
-  }
-
   void showColoredToast() {
     CustomToast.showToast(
         msg: "This is Colored Toast with android duration of 5 Sec",
@@ -102,12 +93,6 @@ class _ToastPageState extends State<ToastPage> {
                 child: new RaisedButton(
                     child: new Text('Show Colored Toast'),
                     onPressed: showColoredToast),
-              ),
-              new Padding(
-                padding: const EdgeInsets.all(10.0),
-                child: new RaisedButton(
-                    child: new Text('Show  Web Colored Toast'),
-                    onPressed: showWebColoredToast),
               ),
               new Padding(
                 padding: const EdgeInsets.all(10.0),
