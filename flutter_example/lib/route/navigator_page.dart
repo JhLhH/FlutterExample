@@ -4,6 +4,7 @@ import 'package:flutterexample/customwidget/toast_page.dart';
 import 'package:flutterexample/hardware/device_info.dart';
 import 'package:flutterexample/hardware/native_record_page.dart';
 import 'package:flutterexample/hardware/permission_handler.dart';
+import 'package:flutterexample/hardware/video_player_page.dart';
 import 'package:flutterexample/widgets/image_preview_page.dart';
 import 'package:flutterexample/widgets/round_checkbox_page.dart';
 import 'package:flutterexample/untils/cache.dart';
@@ -85,6 +86,7 @@ class _MyAppState extends State<MyApp> {
         'SliderPage' : (context) => SliderPage(),
         'DeviceInfo' : (context) => DeviceInfo(),
         'PermissionPage' : (context) => PermissionHandlerPage(),
+        'VideoPlayerPage' : (context) => VideoPlayerPage(),
       },
     );
   }
