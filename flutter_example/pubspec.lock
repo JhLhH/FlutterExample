@@ -34,7 +34,7 @@ packages:
     description:
       path: "flutter_untils/cache"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -85,7 +85,7 @@ packages:
     description:
       path: "flutter_untils/date"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -101,7 +101,7 @@ packages:
     description:
       path: "flutter_widgets/dialog"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -110,7 +110,7 @@ packages:
     description:
       path: "flutter_widgets/extended_image-master"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.7.2"
@@ -126,7 +126,7 @@ packages:
     description:
       path: "flutter_untils/extension_data"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -213,7 +213,7 @@ packages:
     description:
       path: "flutter_widgets/image_preview"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -243,7 +243,7 @@ packages:
     description:
       path: "flutter_hardware/native_record"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -252,7 +252,7 @@ packages:
     description:
       path: "flutter_widgets/noticebar"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -331,7 +331,7 @@ packages:
     description:
       path: "flutter_widgets/progressview"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -347,7 +347,7 @@ packages:
     description:
       path: "flutter_widgets/round_checkbox"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -356,7 +356,7 @@ packages:
     description:
       path: "flutter_widgets/searchbar"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -365,7 +365,7 @@ packages:
     description:
       path: "flutter_widgets/segmentcontrol"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -407,7 +407,7 @@ packages:
     description:
       path: "flutter_widgets/slider"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -430,7 +430,7 @@ packages:
     description:
       path: "flutter_widgets/step"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -453,7 +453,7 @@ packages:
     description:
       path: "flutter_widgets/tableview"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -476,7 +476,7 @@ packages:
     description:
       path: "flutter_widgets/toast"
       ref: HEAD
-      resolved-ref: b80cba46e34505749231d03e226b61bfce2ef030
+      resolved-ref: d0c707e995f28ebde04cb54f7a9c54ff9c9855f6
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
