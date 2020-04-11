@@ -1,6 +1,9 @@
 PODS:
   - cache (0.0.1):
     - Flutter
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
   - date (0.0.1):
     - Flutter
   - device_info (0.0.1):
@@ -14,6 +17,7 @@ PODS:
     - Flutter
   - fluttertoast (0.0.2):
     - Flutter
+  - Masonry (1.1.0)
   - native_record (0.0.1):
     - Flutter
     - NTYAmrConverter
@@ -30,6 +34,16 @@ PODS:
     - Flutter
   - shared_preferences_web (0.0.1):
     - Flutter
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - toast (0.0.1):
+    - Flutter
+    - Masonry
+    - SVGKit
+    - YYImage
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
   - cache (from `.symlinks/plugins/cache/ios`)
@@ -47,10 +61,15 @@ DEPENDENCIES:
   - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
   - shared_preferences_macos (from `.symlinks/plugins/shared_preferences_macos/ios`)
   - shared_preferences_web (from `.symlinks/plugins/shared_preferences_web/ios`)
+  - toast (from `.symlinks/plugins/toast/ios`)
 
 SPEC REPOS:
   trunk:
+    - CocoaLumberjack
+    - Masonry
     - NTYAmrConverter
+    - SVGKit
+    - YYImage
 
 EXTERNAL SOURCES:
   cache:
@@ -83,9 +102,12 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/shared_preferences_macos/ios"
   shared_preferences_web:
     :path: ".symlinks/plugins/shared_preferences_web/ios"
+  toast:
+    :path: ".symlinks/plugins/toast/ios"
 
 SPEC CHECKSUMS:
   cache: 04880bbbaae09c4c08024c7713fc4ce55d25ff9b
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   date: 531b8aa381d2aaeb48a4c90c83a6275ac884701e
   device_info: cbf09d2ec12aa7110e0b09fabe54b5bd6c8efe74
   extension_data: 8c935a988a06767a23d192b2b412cb152d7ffccf
@@ -93,6 +115,7 @@ SPEC CHECKSUMS:
   flutter_sound: 0e8163ceac1e00eb6d894e2ae4641ba726a2c479
   flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
   fluttertoast: b644586ef3b16f67fae9a1f8754cef6b2d6b634b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   native_record: 6b7bab25a265612148ccf38500bbb457fa34a8a6
   NTYAmrConverter: 0cd46d044576b1985f9879b4e5164aa25500b658
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
@@ -101,7 +124,10 @@ SPEC CHECKSUMS:
   shared_preferences: 430726339841afefe5142b9c1f50cb6bd7793e01
   shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
   shared_preferences_web: 141cce0c3ed1a1c5bf2a0e44f52d31eeb66e5ea9
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  toast: 281d5f5cdf9b66525d0a2f013ce48fbfadcf365b
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: c34e2287a9ccaa606aeceab922830efb9a6ff69a
+PODFILE CHECKSUM: 2609452b760cd11039b14039a86564367a3d8ab9
 
 COCOAPODS: 1.8.4

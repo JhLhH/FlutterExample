@@ -1,4 +1,4 @@
-import 'package:dialog/bottom_dialog.dart';
+
 import 'package:dialog/dialog.dart';
 import 'package:flutter/material.dart';
 
@@ -22,15 +22,15 @@ class _DialogPageState extends State<DialogPage> {
             RaisedButton(
               child: Text("LoadingDialog"),
               onPressed: () {
-                showLoadingDialog(
-                    context: context,
-                    direction: Direction(
-                      message: "加载中",
-                      messageStyle: TextStyle(),
-                      orientations: Orientations.Horizontal,
-                      width: 120,
-                      height: 120,
-                    ));
+//                showLoadingDialog(
+//                    context: context,
+//                    direction: Direction(
+//                      message: "加载中",
+//                      messageStyle: TextStyle(),
+//                      orientations: Orientations.Horizontal,
+//                      width: 120,
+//                      height: 120,
+//                    ));
               },
             ),
             RaisedButton(
@@ -60,26 +60,26 @@ class _DialogPageState extends State<DialogPage> {
             RaisedButton(
               child: Text("BottomDialog"),
               onPressed: () {
-                showBottomDialog(
-                  context: context,
-                  title: Text("标题"),
-                  content: Container(child: Text("我是内容")),
-                  isScrollControlled: true,
-                  actions: <Widget>[
-                    FlatButton(
-                      child: Text("确认"),
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                    ),
-                    FlatButton(
-                      child: Text("取消"),
-                      onPressed: () {
-                        Navigator.pop(context);
-                      },
-                    ),
-                  ],
-                );
+//                showBottomDialog(
+//                  context: context,
+//                  title: Text("标题"),
+//                  content: Container(child: Text("我是内容")),
+//                  isScrollControlled: true,
+//                  actions: <Widget>[
+//                    FlatButton(
+//                      child: Text("确认"),
+//                      onPressed: () {
+//                        Navigator.pop(context);
+//                      },
+//                    ),
+//                    FlatButton(
+//                      child: Text("取消"),
+//                      onPressed: () {
+//                        Navigator.pop(context);
+//                      },
+//                    ),
+//                  ],
+//                );
               },
             ),
             RaisedButton(
