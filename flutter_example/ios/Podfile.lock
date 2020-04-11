@@ -1,6 +1,11 @@
 PODS:
   - auto_orientation (0.0.1):
     - Flutter
+  - BSGridCollectionViewLayout (1.2.5)
+  - BSImagePicker (2.10.3):
+    - BSGridCollectionViewLayout (= 1.2.5)
+    - BSImageView (= 1.0.3)
+  - BSImageView (1.0.3)
   - cache (0.0.1):
     - Flutter
   - date (0.0.1):
@@ -19,9 +24,14 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - multi_image_picker (4.6.4):
+    - BSImagePicker (~> 2.10.3)
+    - Flutter
   - native_record (0.0.1):
     - Flutter
     - NTYAmrConverter
+  - native_video_player (0.0.1):
+    - Flutter
   - NTYAmrConverter (0.1.0)
   - path_provider (0.0.1):
     - Flutter
@@ -57,7 +67,9 @@ DEPENDENCIES:
   - flutter_sound (from `.symlinks/plugins/flutter_sound/ios`)
   - flutter_webview_plugin (from `.symlinks/plugins/flutter_webview_plugin/ios`)
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - multi_image_picker (from `.symlinks/plugins/multi_image_picker/ios`)
   - native_record (from `.symlinks/plugins/native_record/ios`)
+  - native_video_player (from `.symlinks/plugins/native_video_player/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
   - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
@@ -72,6 +84,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - BSGridCollectionViewLayout
+    - BSImagePicker
+    - BSImageView
     - FMDB
     - NTYAmrConverter
 
@@ -94,8 +109,12 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_webview_plugin/ios"
   fluttertoast:
     :path: ".symlinks/plugins/fluttertoast/ios"
+  multi_image_picker:
+    :path: ".symlinks/plugins/multi_image_picker/ios"
   native_record:
     :path: ".symlinks/plugins/native_record/ios"
+  native_video_player:
+    :path: ".symlinks/plugins/native_video_player/ios"
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
   path_provider_macos:
@@ -121,6 +140,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   auto_orientation: 2941c44ebe5c3d41016001597ab03e81a92a26ce
+  BSGridCollectionViewLayout: 333dcb457a5a3bdd9212607ab5756553dcfe06cb
+  BSImagePicker: 07404254f2fcdaf5a2eb403c0f8c337267ce8738
+  BSImageView: a149459433a2687157d034c78e059d30ac7f2544
   cache: 04880bbbaae09c4c08024c7713fc4ce55d25ff9b
   date: 531b8aa381d2aaeb48a4c90c83a6275ac884701e
   device_info: cbf09d2ec12aa7110e0b09fabe54b5bd6c8efe74
@@ -130,7 +152,9 @@ SPEC CHECKSUMS:
   flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
   fluttertoast: b644586ef3b16f67fae9a1f8754cef6b2d6b634b
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  multi_image_picker: 1651732277b2db3b09e83f3be8eb7ea65cf2a933
   native_record: 6b7bab25a265612148ccf38500bbb457fa34a8a6
+  native_video_player: 4cdefc64d83dc04cc682aa978468aea7095f5cc7
   NTYAmrConverter: 0cd46d044576b1985f9879b4e5164aa25500b658
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
   path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
