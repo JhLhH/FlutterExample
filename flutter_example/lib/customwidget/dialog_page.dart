@@ -94,12 +94,6 @@ class _DialogPageState extends State<DialogPage> {
                         });
                   },
                 ),
-                RaisedButton(
-                  child: Text("LoadingDialog"),
-                  onPressed: () {
-
-                  },
-                ),
               ],
             ),
       ),

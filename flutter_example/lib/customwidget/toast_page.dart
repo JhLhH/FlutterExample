@@ -15,13 +15,6 @@ class _ToastPageState extends State<ToastPage> {
   void showLongToast() {
     CustomToast.showToast(
       "This is Long Toast",
-      time: 2,
-    );
-  }
-
-  void showWebColoredToast() {
-    CustomToast.showToast(
-      "This is Colored Toast with android duration of 5 Sec",
       time: 3,
     );
   }
@@ -35,22 +28,21 @@ class _ToastPageState extends State<ToastPage> {
 
   void showShortToast() {
     CustomToast.showToast(
-        "This is Short Toast",
-        time: 1,
+      "This is Short Toast",
     );
   }
 
   void showTopShortToast() {
     CustomToast.showToast(
-        "This is Top Short Toast",
-        gravity: ToastGravity.TOP,
+      "This is Top Short Toast",
+      gravity: ToastGravity.TOP,
     );
   }
 
   void showCenterShortToast() {
     CustomToast.showToast(
-        "This is Center Short Toast",
-        gravity: ToastGravity.CENTER,
+      "This is Center Short Toast",
+      gravity: ToastGravity.CENTER,
     );
   }
 
@@ -58,59 +50,116 @@ class _ToastPageState extends State<ToastPage> {
     CustomToast.cancelToast();
   }
 
+  void showLoading() {
+    CustomToast.showLoading(
+        msg: '加载数据中...', cancelable: true, canceledOnTouchOutside: true);
+  }
+
+  void showSuccess() {
+    CustomToast.showLoading(
+        cancelable: true, canceledOnTouchOutside: true, status: 1);
+  }
+
+  void showFail() {
+    CustomToast.showLoading(
+        cancelable: true, canceledOnTouchOutside: true, status: -1);
+  }
+
+  void showWarn() {
+    CustomToast.showLoading(
+        cancelable: true, canceledOnTouchOutside: true, status: -2);
+  }
+
+  void cancelLoading() {
+    CustomToast.cancelLoading();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return new MaterialApp(
+      home: new Scaffold(
         appBar: new AppBar(
           title: new Text('Flutter Toast'),
         ),
         body: GridView(
-          gridDelegate:
-              SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-          children: <Widget>[
-            new Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: new RaisedButton(
-                  child: new Text('Show Long Toast'), onPressed: showLongToast),
-            ),
-            new Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: new RaisedButton(
-                  child: new Text('Show Short Toast'),
-                  onPressed: showShortToast),
-            ),
-            new Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: new RaisedButton(
-                  child: new Text('Show Center Short Toast'),
-                  onPressed: showCenterShortToast),
-            ),
-            new Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: new RaisedButton(
-                  child: new Text('Show Top Short Toast'),
-                  onPressed: showTopShortToast),
-            ),
-            new Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: new RaisedButton(
-                  child: new Text('Show Colored Toast'),
-                  onPressed: showColoredToast),
-            ),
-            new Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: new RaisedButton(
-                  child: new Text('Show  Web Colored Toast'),
-                  onPressed: showWebColoredToast),
-            ),
-            new Padding(
-              padding: const EdgeInsets.all(10.0),
-              child: new RaisedButton(
-                child: new Text('Cancel Toasts'),
-                onPressed: cancelToast,
+            gridDelegate:
+            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+            children: <Widget>[
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                    child: new Text('Show Long Toast'),
+                    onPressed: showLongToast),
               ),
-            ),
-          ],
-        ));
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                    child: new Text('Show Short Toast'),
+                    onPressed: showShortToast),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                    child: new Text('Show Center Short Toast'),
+                    onPressed: showCenterShortToast),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                    child: new Text('Show Top Short Toast'),
+                    onPressed: showTopShortToast),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                    child: new Text('Show Colored Toast'),
+                    onPressed: showColoredToast),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                  child: new Text('Cancel Toasts'),
+                  onPressed: cancelToast,
+                ),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                  child: new Text('Show Loading'),
+                  onPressed: showLoading,
+                ),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                  child: new Text('Show Success'),
+                  onPressed: showSuccess,
+                ),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                  child: new Text('Show Fail'),
+                  onPressed: showFail,
+                ),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                  child: new Text('Show Warn'),
+                  onPressed: showWarn,
+                ),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
+                  child: new Text('Cancel Loading'),
+                  onPressed: cancelLoading,
+                ),
+              ),
+            ],
+          ),
+        ),
+    );
   }
 }
