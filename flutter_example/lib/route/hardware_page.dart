@@ -29,7 +29,8 @@ class _HardwarePageState extends State<HardwarePage> {
     'Record':'record',
     'DeviceInfo':'DeviceInfo',
     'Permissions':'PermissionPage',
-    'Gallery':'gallery'
+    'Gallery':'gallery',
+    'VideoPlayer':'VideoPlayerPage',
   };
 
   @override

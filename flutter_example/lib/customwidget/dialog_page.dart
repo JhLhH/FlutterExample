@@ -1,4 +1,3 @@
-
 import 'package:dialog/dialog.dart';
 import 'package:flutter/material.dart';
 
@@ -8,7 +7,9 @@ class DialogPage extends StatefulWidget {
 }
 
 class _DialogPageState extends State<DialogPage> {
-  var list = ['1', '2', '3', '4'];
+
+  bool _loading = false;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -16,127 +17,91 @@ class _DialogPageState extends State<DialogPage> {
         title: Text('DialogExample'),
       ),
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            RaisedButton(
-              child: Text("LoadingDialog"),
-              onPressed: () {
-//                showLoadingDialog(
-//                    context: context,
-//                    direction: Direction(
-//                      message: "加载中",
-//                      messageStyle: TextStyle(),
-//                      orientations: Orientations.Horizontal,
-//                      width: 120,
-//                      height: 120,
-//                    ));
-              },
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                RaisedButton(
+                  child: Text("CustomDialog"),
+                  onPressed: () {
+                    showCustomDialog(
+                        context: context,
+                        gravity: 0,
+                        child: Text("showCustomDialog"));
+                  },
+                ),
+                RaisedButton(
+                  child: Text("showBottomCustomDialog"),
+                  onPressed: () {
+                    showBottomCustomDialog(
+                        context: context,
+                        child: Column(
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text("随便写的"),
+                            Text("随便"),
+                            Text("自定义内容"),
+                          ],
+                        ));
+                  },
+                ),
+                RaisedButton(
+                  child: Text("showBottomListDialog"),
+                  onPressed: () {
+                    showBottomListDialog(
+                        context: context,
+                        title: '我是标题',
+                        content: '我是内容',
+                        action: ['第一项', '第二项', '第三项'],
+                        onItemCallBack: (index) {
+                          Navigator.pop(context);
+                        });
+                  },
+                ),
+                RaisedButton(
+                  child: Text("SimpleListDialog"),
+                  onPressed: () {
+                    showListDialog(
+                        context: context,
+                        title: '我是标题',
+                        content: '我是内容',
+                        action: ['第一项', '第二项', '第三项'],
+                        onItemCallBack: (index) {
+                          Navigator.pop(context);
+                        });
+                  },
+                ),
+                RaisedButton(
+                  child: Text("TwoButtonDialog"),
+                  onPressed: () {
+                    showNormalDialog(
+                        context: context,
+                        title: '我是标题',
+                        action: ['取消', '确认'],
+                        onItemCallBack: (index) {
+                          Navigator.pop(context);
+                        });
+                  },
+                ),
+                RaisedButton(
+                  child: Text("NormalDialog"),
+                  onPressed: () {
+                    showNormalDialog(
+                        context: context,
+                        title: '我是标题',
+                        action: ['知道了'],
+                        onItemCallBack: (index) {
+                          Navigator.pop(context);
+                        });
+                  },
+                ),
+                RaisedButton(
+                  child: Text("LoadingDialog"),
+                  onPressed: () {
+
+                  },
+                ),
+              ],
             ),
-            RaisedButton(
-              child: Text("AlertDialog"),
-              onPressed: () {
-                showAlertDialog(
-                    context: context,
-                    title: Text("标题"),
-                    content: Text("我是内容"),
-                    semanticLabel: "AlertDialog扩展",
-                    actions: <Widget>[
-                      FlatButton(
-                        child: Text("确认"),
-                        onPressed: () {
-                          Navigator.of(context).pop();
-                        },
-                      ),
-                      FlatButton(
-                        child: Text("取消"),
-                        onPressed: () {
-                          Navigator.of(context).pop();
-                        },
-                      ),
-                    ]);
-              },
-            ),
-            RaisedButton(
-              child: Text("BottomDialog"),
-              onPressed: () {
-//                showBottomDialog(
-//                  context: context,
-//                  title: Text("标题"),
-//                  content: Container(child: Text("我是内容")),
-//                  isScrollControlled: true,
-//                  actions: <Widget>[
-//                    FlatButton(
-//                      child: Text("确认"),
-//                      onPressed: () {
-//                        Navigator.pop(context);
-//                      },
-//                    ),
-//                    FlatButton(
-//                      child: Text("取消"),
-//                      onPressed: () {
-//                        Navigator.pop(context);
-//                      },
-//                    ),
-//                  ],
-//                );
-              },
-            ),
-            RaisedButton(
-              child: Text("CustomAlertDialog"),
-              onPressed: () {
-                showCustomAlertDialog(
-                    context: context,
-                    dialogBuilder: DialogBuilder(
-                      simpleBuilder: SimpleBuilder(
-                        title: Text("标题"),
-                        content: SingleChildScrollView(
-                          child: ListBody(
-                            children: list
-                                .map((i) => InkWell(
-                                      child: Text(i),
-                                      onTap: () {
-                                        print(i);
-                                      },
-                                    ))
-                                .toList(),
-                          ),
-                        ),
-                      ),
-                    ),
-                    confirmWidget: Text("确认"),
-                    cancelWidget: Text("取消"),
-                    onConfirmCallBack: () {
-                      Navigator.pop(context);
-                    },
-                    onCancelCallBack: () {
-                      Navigator.pop(context);
-                    });
-              },
-            ),
-            RaisedButton(
-              child: Text("SimpleListDialog"),
-              onPressed: () {
-                showSimpleListDialog(
-                    context: context,
-                    simpleBuilder: SimpleBuilder(),
-                    children: list.map((title) => Text(title)).toList(),
-                    onItemCallBack: (index) {
-                      print(list[index]);
-                    });
-              },
-            ),
-            RaisedButton(
-              child: Text("CustomDialog"),
-              onPressed: () {
-                showCustomDialog(
-                    context: context,
-                    gravity: 0,
-                    child: Text("showCustomDialog"));
-              },
-            ),
-          ],
-        ),
       ),
     );
   }
