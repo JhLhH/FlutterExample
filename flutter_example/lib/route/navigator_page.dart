@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterexample/customwidget/dialog_page.dart';
 import 'package:flutterexample/customwidget/toast_page.dart';
 import 'package:flutterexample/hardware/device_info.dart';
+import 'package:flutterexample/hardware/gallery_page.dart';
 import 'package:flutterexample/hardware/native_record_page.dart';
 import 'package:flutterexample/hardware/permission_handler.dart';
 import 'package:flutterexample/hardware/video_player_page.dart';
@@ -86,6 +87,7 @@ class _MyAppState extends State<MyApp> {
         'SliderPage' : (context) => SliderPage(),
         'DeviceInfo' : (context) => DeviceInfo(),
         'PermissionPage' : (context) => PermissionHandlerPage(),
+        'gallery' : (context) => GalleryPage(),
         'VideoPlayerPage' : (context) => VideoPlayerPage(),
       },
     );

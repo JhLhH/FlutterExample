@@ -1,11 +1,9 @@
 PODS:
-  - BSGridCollectionViewLayout (1.2.5)
-  - BSImagePicker (2.10.3):
-    - BSGridCollectionViewLayout (= 1.2.5)
-    - BSImageView (= 1.0.3)
-  - BSImageView (1.0.3)
   - cache (0.0.1):
     - Flutter
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
   - date (0.0.1):
     - Flutter
   - device_info (0.0.1):
@@ -19,17 +17,10 @@ PODS:
     - Flutter
   - fluttertoast (0.0.2):
     - Flutter
-  - FMDB (2.7.5):
-    - FMDB/standard (= 2.7.5)
-  - FMDB/standard (2.7.5)
-  - multi_image_picker (4.6.4):
-    - BSImagePicker (~> 2.10.3)
-    - Flutter
+  - Masonry (1.1.0)
   - native_record (0.0.1):
     - Flutter
     - NTYAmrConverter
-  - native_video_player (0.0.1):
-    - Flutter
   - NTYAmrConverter (0.1.0)
   - path_provider (0.0.1):
     - Flutter
@@ -37,23 +28,22 @@ PODS:
     - Flutter
   - "permission_handler (4.4.0+hotfix.4)":
     - Flutter
-  - screen (0.0.1):
-    - Flutter
   - shared_preferences (0.0.1):
     - Flutter
   - shared_preferences_macos (0.0.1):
     - Flutter
   - shared_preferences_web (0.0.1):
     - Flutter
-  - sqflite (0.0.1):
-    - Flutter
-    - FMDB (~> 2.7.2)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
   - toast (0.0.1):
     - Flutter
-  - video_player (0.0.1):
-    - Flutter
-  - video_player_web (0.0.1):
-    - Flutter
+    - Masonry
+    - SVGKit
+    - YYImage
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
 
 DEPENDENCIES:
   - cache (from `.symlinks/plugins/cache/ios`)
@@ -64,28 +54,22 @@ DEPENDENCIES:
   - flutter_sound (from `.symlinks/plugins/flutter_sound/ios`)
   - flutter_webview_plugin (from `.symlinks/plugins/flutter_webview_plugin/ios`)
   - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
-  - multi_image_picker (from `.symlinks/plugins/multi_image_picker/ios`)
   - native_record (from `.symlinks/plugins/native_record/ios`)
-  - native_video_player (from `.symlinks/plugins/native_video_player/ios`)
   - path_provider (from `.symlinks/plugins/path_provider/ios`)
   - path_provider_macos (from `.symlinks/plugins/path_provider_macos/ios`)
   - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
-  - screen (from `.symlinks/plugins/screen/ios`)
   - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
   - shared_preferences_macos (from `.symlinks/plugins/shared_preferences_macos/ios`)
   - shared_preferences_web (from `.symlinks/plugins/shared_preferences_web/ios`)
-  - sqflite (from `.symlinks/plugins/sqflite/ios`)
   - toast (from `.symlinks/plugins/toast/ios`)
-  - video_player (from `.symlinks/plugins/video_player/ios`)
-  - video_player_web (from `.symlinks/plugins/video_player_web/ios`)
 
 SPEC REPOS:
   trunk:
-    - BSGridCollectionViewLayout
-    - BSImagePicker
-    - BSImageView
-    - FMDB
+    - CocoaLumberjack
+    - Masonry
     - NTYAmrConverter
+    - SVGKit
+    - YYImage
 
 EXTERNAL SOURCES:
   cache:
@@ -104,40 +88,26 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/flutter_webview_plugin/ios"
   fluttertoast:
     :path: ".symlinks/plugins/fluttertoast/ios"
-  multi_image_picker:
-    :path: ".symlinks/plugins/multi_image_picker/ios"
   native_record:
     :path: ".symlinks/plugins/native_record/ios"
-  native_video_player:
-    :path: ".symlinks/plugins/native_video_player/ios"
   path_provider:
     :path: ".symlinks/plugins/path_provider/ios"
   path_provider_macos:
     :path: ".symlinks/plugins/path_provider_macos/ios"
   permission_handler:
     :path: ".symlinks/plugins/permission_handler/ios"
-  screen:
-    :path: ".symlinks/plugins/screen/ios"
   shared_preferences:
     :path: ".symlinks/plugins/shared_preferences/ios"
   shared_preferences_macos:
     :path: ".symlinks/plugins/shared_preferences_macos/ios"
   shared_preferences_web:
     :path: ".symlinks/plugins/shared_preferences_web/ios"
-  sqflite:
-    :path: ".symlinks/plugins/sqflite/ios"
   toast:
     :path: ".symlinks/plugins/toast/ios"
-  video_player:
-    :path: ".symlinks/plugins/video_player/ios"
-  video_player_web:
-    :path: ".symlinks/plugins/video_player_web/ios"
 
 SPEC CHECKSUMS:
-  BSGridCollectionViewLayout: 333dcb457a5a3bdd9212607ab5756553dcfe06cb
-  BSImagePicker: 07404254f2fcdaf5a2eb403c0f8c337267ce8738
-  BSImageView: a149459433a2687157d034c78e059d30ac7f2544
   cache: 04880bbbaae09c4c08024c7713fc4ce55d25ff9b
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
   date: 531b8aa381d2aaeb48a4c90c83a6275ac884701e
   device_info: cbf09d2ec12aa7110e0b09fabe54b5bd6c8efe74
   extension_data: 8c935a988a06767a23d192b2b412cb152d7ffccf
@@ -145,23 +115,19 @@ SPEC CHECKSUMS:
   flutter_sound: 0e8163ceac1e00eb6d894e2ae4641ba726a2c479
   flutter_webview_plugin: ed9e8a6a96baf0c867e90e1bce2673913eeac694
   fluttertoast: b644586ef3b16f67fae9a1f8754cef6b2d6b634b
-  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  multi_image_picker: 1651732277b2db3b09e83f3be8eb7ea65cf2a933
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   native_record: 6b7bab25a265612148ccf38500bbb457fa34a8a6
-  native_video_player: 4cdefc64d83dc04cc682aa978468aea7095f5cc7
   NTYAmrConverter: 0cd46d044576b1985f9879b4e5164aa25500b658
   path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
   path_provider_macos: f760a3c5b04357c380e2fddb6f9db6f3015897e0
   permission_handler: 8278954f2382902f63f00dd8828769c0bd6d511b
-  screen: abd91ca7bf3426e1cc3646d27e9b2358d6bf07b0
   shared_preferences: 430726339841afefe5142b9c1f50cb6bd7793e01
   shared_preferences_macos: f3f29b71ccbb56bf40c9dd6396c9acf15e214087
   shared_preferences_web: 141cce0c3ed1a1c5bf2a0e44f52d31eeb66e5ea9
-  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
-  toast: 070364797f0ae9cbe57afd3edf9075ec38d5c8b4
-  video_player: 69c5f029fac4ffe4fc8a85ea7f7b793709661549
-  video_player_web: da8cadb8274ed4f8dbee8d7171b420dedd437ce7
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  toast: 281d5f5cdf9b66525d0a2f013ce48fbfadcf365b
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
 
-PODFILE CHECKSUM: c1b34269bf95e90b6647bf1a6afe1ab381fe5ad6
+PODFILE CHECKSUM: 2609452b760cd11039b14039a86564367a3d8ab9
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.8.4

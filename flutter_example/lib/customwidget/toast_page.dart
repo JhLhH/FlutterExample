@@ -7,41 +7,41 @@ class ToastPage extends StatefulWidget {
 }
 
 class _ToastPageState extends State<ToastPage> {
-
   @override
   initState() {
     super.initState();
   }
+
   void showLongToast() {
     CustomToast.showToast(
-      msg: "This is Long Toast",
-      time: -1,
+      "This is Long Toast",
+      time: 3,
     );
   }
 
   void showColoredToast() {
     CustomToast.showToast(
-        msg: "This is Colored Toast with android duration of 5 Sec",
+        "This is Colored Toast with android duration of 5 Sec",
         backgroundColor: Colors.red,
         textColor: Colors.white);
   }
 
   void showShortToast() {
     CustomToast.showToast(
-      msg: "This is Short Toast",
+      "This is Short Toast",
     );
   }
 
   void showTopShortToast() {
     CustomToast.showToast(
-      msg: "This is Top Short Toast",
+      "This is Top Short Toast",
       gravity: ToastGravity.TOP,
     );
   }
 
   void showCenterShortToast() {
     CustomToast.showToast(
-      msg: "This is Center Short Toast",
+      "This is Center Short Toast",
       gravity: ToastGravity.CENTER,
     );
   }
@@ -65,6 +65,11 @@ class _ToastPageState extends State<ToastPage> {
         cancelable: true, canceledOnTouchOutside: true, status: -1);
   }
 
+  void showWarn() {
+    CustomToast.showLoading(
+        cancelable: true, canceledOnTouchOutside: true, status: -2);
+  }
+
   void cancelLoading() {
     CustomToast.cancelLoading();
   }
@@ -76,8 +81,9 @@ class _ToastPageState extends State<ToastPage> {
         appBar: new AppBar(
           title: new Text('Flutter Toast'),
         ),
-        body: new Center(
-          child: new Column(
+        body: GridView(
+            gridDelegate:
+            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
             children: <Widget>[
               new Padding(
                 padding: const EdgeInsets.only(top: 10.0),
@@ -140,6 +146,13 @@ class _ToastPageState extends State<ToastPage> {
               new Padding(
                 padding: const EdgeInsets.only(top: 10.0),
                 child: new RaisedButton(
+                  child: new Text('Show Warn'),
+                  onPressed: showWarn,
+                ),
+              ),
+              new Padding(
+                padding: const EdgeInsets.only(top: 10.0),
+                child: new RaisedButton(
                   child: new Text('Cancel Loading'),
                   onPressed: cancelLoading,
                 ),
@@ -147,7 +160,6 @@ class _ToastPageState extends State<ToastPage> {
             ],
           ),
         ),
-      ),
     );
   }
 }
