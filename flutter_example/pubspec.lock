@@ -15,13 +15,6 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "2.4.1"
-  auto_orientation:
-    dependency: transitive
-    description:
-      name: auto_orientation
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "1.0.6"
   boolean_selector:
     dependency: transitive
     description:
@@ -348,11 +341,9 @@ packages:
   native_video_player:
     dependency: "direct main"
     description:
-      path: "flutter_hardware/native_video_player"
-      ref: HEAD
-      resolved-ref: "9250ab552e09fe8bdb5822c92b0fa65354747591"
-      url: "https://github.com/wya-team/flutter_wya.git"
-    source: git
+      path: "/Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_hardware/native_video_player"
+      relative: false
+    source: path
     version: "0.0.1"
   nested:
     dependency: transitive
