@@ -117,6 +117,7 @@ dependencies:
     git:
       url: https://github.com/wya-team/flutter_wya.git
       path: flutter_hardware/native_video_player
+#      path: /Users/lijunheng/Desktop/WYATeam/flutter_wya/flutter_hardware/native_video_player
 
 
 dev_dependencies:
