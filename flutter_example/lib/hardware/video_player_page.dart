@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterexample/customwidget/popupmenbutton_page.dart';
 import 'package:native_video_player/video_player_widget/video_player_UI.dart';
 class VideoPlayerPage extends StatefulWidget {
   @override
@@ -18,6 +19,12 @@ class _VideoPlayerPageState extends State<VideoPlayerPage> {
             Navigator.pop(context);
           },
         ),
+        actions: <Widget>[
+          PopupMenButtonPage(
+            titles: ['查看文档'],
+            urls: ['https://github.com/wya-team/flutter_wya/blob/master/flutter_hardware/native_video_player/README.md'],
+          ),
+        ],
       ): null,
       body: Column(
         children: [
