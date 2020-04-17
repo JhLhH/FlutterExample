@@ -8,6 +8,20 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.2"
+  archive:
+    dependency: transitive
+    description:
+      name: archive
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.0.13"
+  args:
+    dependency: transitive
+    description:
+      name: args
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.6.0"
   async:
     dependency: transitive
     description:
@@ -34,7 +48,7 @@ packages:
     description:
       path: "flutter_untils/cache"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -93,7 +107,7 @@ packages:
       name: crypto
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.1.3"
+    version: "2.1.4"
   csslib:
     dependency: transitive
     description:
@@ -113,7 +127,7 @@ packages:
     description:
       path: "flutter_untils/date"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -136,7 +150,7 @@ packages:
     description:
       path: "flutter_widgets/dialog"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -152,7 +166,7 @@ packages:
     description:
       path: "flutter_widgets/extended_image-master"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.7.2"
@@ -168,7 +182,7 @@ packages:
     description:
       path: "flutter_untils/extension_data"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -190,14 +204,14 @@ packages:
       name: flutter_cache_manager
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.2.0"
+    version: "1.2.2"
   flutter_easyrefresh:
     dependency: transitive
     description:
       name: flutter_easyrefresh
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.1.0"
+    version: "2.1.1"
   flutter_html:
     dependency: "direct main"
     description:
@@ -285,12 +299,19 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "3.1.4"
+  image:
+    dependency: transitive
+    description:
+      name: image
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.1.12"
   image_preview:
     dependency: "direct main"
     description:
       path: "flutter_widgets/image_preview"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -342,13 +363,29 @@ packages:
       name: multi_image_picker
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "4.6.5+rc.1"
+    version: "4.6.6+rc.1"
+  native_camera:
+    dependency: "direct main"
+    description:
+      path: "flutter_hardware/native_camera"
+      ref: HEAD
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
+  native_gallery:
+    dependency: "direct main"
+    description:
+      path: "/Users/lishihang/Desktop/GitProject/Flutter/flutter_wya/flutter_hardware/native_gallery"
+      relative: false
+    source: path
+    version: "0.0.1"
   native_record:
     dependency: "direct main"
     description:
       path: "flutter_hardware/native_record"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -357,7 +394,7 @@ packages:
     description:
       path: "flutter_hardware/native_video_player"
       ref: HEAD
-      resolved-ref: "6be157a413f92edf865caac2e106e7e8585cda75"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -373,7 +410,7 @@ packages:
     description:
       path: "flutter_widgets/noticebar"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -411,7 +448,7 @@ packages:
       name: pedantic
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "1.8.0+1"
+    version: "1.9.0"
   permission_handler:
     dependency: "direct main"
     description:
@@ -426,6 +463,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "1.0.0"
+  petitparser:
+    dependency: transitive
+    description:
+      name: petitparser
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "2.4.0"
   photo_view:
     dependency: transitive
     description:
@@ -473,7 +517,7 @@ packages:
     description:
       path: "flutter_widgets/progressview"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -483,7 +527,7 @@ packages:
       name: provider
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "4.0.4"
+    version: "4.0.5"
   quiver:
     dependency: transitive
     description:
@@ -503,7 +547,7 @@ packages:
     description:
       path: "flutter_widgets/round_checkbox"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -513,7 +557,7 @@ packages:
       name: rxdart
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "0.23.1"
+    version: "0.24.0"
   screen:
     dependency: transitive
     description:
@@ -526,7 +570,7 @@ packages:
     description:
       path: "flutter_widgets/searchbar"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -535,7 +579,7 @@ packages:
     description:
       path: "flutter_widgets/segmentcontrol"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -577,7 +621,7 @@ packages:
     description:
       path: "flutter_widgets/slider"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -614,7 +658,7 @@ packages:
     description:
       path: "flutter_widgets/step"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -644,7 +688,7 @@ packages:
     description:
       path: "flutter_widgets/tableview"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -667,7 +711,7 @@ packages:
     description:
       path: "flutter_widgets/toast"
       ref: HEAD
-      resolved-ref: "362b9d8a2f7b1346d21e6b70b122c97cc361efa7"
+      resolved-ref: "4b5f4ecafb73aabecc909025386d113ab99461c3"
       url: "https://github.com/wya-team/flutter_wya.git"
     source: git
     version: "0.0.1"
@@ -734,6 +778,13 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "0.1.2+1"
+  xml:
+    dependency: transitive
+    description:
+      name: xml
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "3.6.1"
 sdks:
   dart: ">=2.7.0 <3.0.0"
   flutter: ">=1.12.13+hotfix.5 <2.0.0"
