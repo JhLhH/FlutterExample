@@ -30,6 +30,7 @@ class _HardwarePageState extends State<HardwarePage> {
     'DeviceInfo':'DeviceInfo',
     'Permissions':'PermissionPage',
     'Gallery':'gallery',
+    'Camera':'camera',
     'VideoPlayer':'VideoPlayerPage',
   };
 
