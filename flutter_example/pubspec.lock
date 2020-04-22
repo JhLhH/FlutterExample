@@ -343,6 +343,24 @@ packages:
       url: "https://pub.flutter-io.cn"
     source: hosted
     version: "4.6.5+rc.1"
+  native_camera:
+    dependency: "direct main"
+    description:
+      path: "flutter_hardware/native_camera"
+      ref: HEAD
+      resolved-ref: dedab098ac213e132a61ed18c8175f330b5801e1
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
+  native_gallery:
+    dependency: "direct main"
+    description:
+      path: "flutter_hardware/native_gallery"
+      ref: HEAD
+      resolved-ref: dedab098ac213e132a61ed18c8175f330b5801e1
+      url: "https://github.com/wya-team/flutter_wya.git"
+    source: git
+    version: "0.0.1"
   native_record:
     dependency: "direct main"
     description:
