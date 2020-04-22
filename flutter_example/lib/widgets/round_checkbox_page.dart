@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:round_checkbox/check_box_describe.dart';
 import 'package:round_checkbox/round_checkbox.dart';
 
 class RoundCheckBoxPage extends StatefulWidget {
@@ -14,13 +15,20 @@ class _RoundCheckBoxPageState extends State<RoundCheckBoxPage> {
       appBar: AppBar(
         title: Text('RoundCheckBox'),
       ),
-      body: RoundCheckBox(
-        value: isCheck,
-        onChanged: (flag) {
-          setState(() {
-            isCheck = flag;
-          });
-        },
+      body: Column(
+        children: <Widget>[
+          RoundCheckBox(
+            value: isCheck,
+            onChanged: (flag) {
+              setState(() {
+                isCheck = flag;
+              });
+            },
+          ),
+          CheckBoxDescribe(
+            describeText: '这是一个有说明的选择器',
+          )
+        ],
       ),
     );
   }
