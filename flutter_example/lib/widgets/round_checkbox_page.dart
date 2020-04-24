@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:round_checkbox/check_box_describe.dart';
 import 'package:round_checkbox/round_checkbox.dart';
 
 class RoundCheckBoxPage extends StatefulWidget {
@@ -25,9 +24,9 @@ class _RoundCheckBoxPageState extends State<RoundCheckBoxPage> {
               });
             },
           ),
-          CheckBoxDescribe(
-            describeText: '这是一个有说明的选择器',
-          )
+//          CheckBoxDescribe(
+//            describeText: '这是一个有说明的选择器',
+//          )
         ],
       ),
     );

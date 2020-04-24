@@ -52,7 +52,7 @@ class _SliderPageState extends State<SliderPage> {
                     ),
                     rightChild:
                         Icon(Icons.volume_up, size: 20, color: Colors.grey),
-                    selectedValue: 80,
+                    selectedValue: 60,
                     value: 7))
           ],
         ),
@@ -62,7 +62,7 @@ class _SliderPageState extends State<SliderPage> {
 
   _getNormalSlider() {
     return CustomSlider(
-      width: 300,
+      width: 100,
       min: 0,
       max: 100,
       selectedValue: 40,
@@ -85,7 +85,7 @@ class _SliderPageState extends State<SliderPage> {
           child: leftChild,
         ),
         CustomSlider(
-          width: 300,
+          width: 100,
           min: 0,
           max: 100,
           selectedValue: selectedValue ?? 0,
